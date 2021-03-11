@@ -139,6 +139,7 @@ export default {
 
 <style scoped>
 .title{
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
 }
 </style>
