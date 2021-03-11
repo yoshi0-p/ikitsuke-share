@@ -1,8 +1,8 @@
 <template>
   <div class="share">
-    <p class="form_title">店舗名</p>
+    <p class="form_title"><span id="char">店舗名</span></p>
     <input class="form" type="text" v-model="shop">
-    <p class="form_title">所在地</p>
+    <p class="form_title"><span id="char">所在地</span></p>
 <select class="form" name="pref_name" v-model="pref_id">
 <option value="" selected>都道府県</option>
 <option value="北海道">北海道</option>
@@ -53,9 +53,9 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
-    <p class="form_title">クチコミ</p>
+    <p class="form_title"><span id="char">クチコミ</span></p>
     <textarea class="form" v-model="share"></textarea>
-    <p class="form_title">参考URL</p>
+    <p class="form_title"><span id="char">参考URL</span></p>
     <input class ="form" type="text" v-model="url">
     <div @click="send">
       <button>お店をシェア</button>
@@ -112,7 +112,7 @@ export default {
   background-color:rgb(153, 93, 15);
   color:white;
 }
-.form_title{
+#char{
   width:300px;
   border-color:rgb(255, 255, 255);
   background-color:rgb(0, 0, 0);
