@@ -122,6 +122,7 @@ export default {
       const shares = await axios.get(
         "https://desolate-chamber-25914.herokuapp.com/api/shares"
       );
+      console.log(shares);
       for (let i = 0; i < shares.data.data.length; i++) {
         await axios
           .get(
