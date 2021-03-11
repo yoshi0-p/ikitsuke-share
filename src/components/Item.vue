@@ -153,5 +153,9 @@ export default {
   margin:10px;
   border: solid 3px #000000;
   width:300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 </style>
