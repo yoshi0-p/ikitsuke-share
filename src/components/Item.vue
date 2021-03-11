@@ -3,7 +3,6 @@
     <div v-for="(value,index) in shares" :key="index">
       <div class="message">
         <div class="flex">
-          <p class="name">{{ value.name }}</p>
       <!--   <p class="icon" @click="fav(index)" >[★]</p> -->
       <!--    <p class="number">{{ value.like.length }}</p> -->
           <p
@@ -12,16 +11,12 @@
             alt
           >[×]</p>
 
-           <div class="comment-box">
-         <input v-model="content" type="text" />
-        </div>
-
         </div>
         <p class="text">{{ value.item.shop }}</p>
         <p class="text">{{ value.item.pref_id }}</p>
         <p class="text">{{ value.item.share }}</p>
-        <p class="text">{{ value.item.user_id }}</p>
-        <a href="{value.item.url}">{{value.item.url}}</a>
+        <a href="{value.item.url}">参考：{{value.item.url}}</a>
+        <p class="name">Recommeded by{{ value.name }}</p>
       
        
        
