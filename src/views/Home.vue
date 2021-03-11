@@ -1,9 +1,9 @@
 <template>
       
       <div class="parent">
-      <div >
-        <h2 class="logo">イキツケ</h2>
-        <h1 class="logo">SHARE</h1>
+      <div class="logo">
+        <h2 >イキツケ</h2>
+        <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
       <Item />
