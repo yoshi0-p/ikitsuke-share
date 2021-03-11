@@ -48,7 +48,7 @@ export default {
   methods: {
      
 
-    send(index) {
+  /*  send(index) {
       axios
         .post("https://desolate-chamber-25914.herokuapp.com/api/comment", {
           share_id: this.shares[index].item.id,
@@ -102,7 +102,7 @@ export default {
             });
           });
       }
-    },
+    },*/
     del(index) {
       axios
         .delete(
