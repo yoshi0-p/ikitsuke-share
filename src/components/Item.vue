@@ -11,12 +11,11 @@
         <p class="text pref"> {{ value.item.pref_id }} </p>
         <p class="icon" @click="del(index)" alt  v-if="auth">[×]</p>
         </div>
-        
+              
         <p class="text">{{ value.item.share }}</p>
         <a href="{value.item.url}">参考：{{value.item.url}}</a>
         <p class="name">Recommeded by:{{ value.name }}</p>
-
-  
+ 
       </div>
     </div>
   </div>
@@ -28,12 +27,12 @@ export default {
   data() {
     return {
       shares: [],
-      auth:false
+      auth:false,
     };
   },
 
   methods: {
-     
+
   /*  send(index) {
       axios
         .post("https://desolate-chamber-25914.herokuapp.com/api/comment", {
@@ -128,9 +127,9 @@ export default {
 
   },
   created() {
-    if(this.$store.state.user.id === 4){
+   /* if(this.$store.state.user.id === 4){
            this.auth = true;
-       };
+       }; */
     this.getShares();
     
   },
