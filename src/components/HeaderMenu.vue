@@ -102,25 +102,5 @@ export default {
 </script>
 
 <style scoped>
-.share {
-  width:100%;
-  display:flex;  
-  height: 75px;
-}
-.textarea, input {
-  padding-left:20px;
-  height:60px;
-  vertical-align: middle;
-  width:50%;
-  border: 1px solid rgb(0, 134, 11);
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-}
-button {
-  width: 100px;
-  padding: 8px 0 10px;
-  color: #fff;
-  background-color: #000000;
-  display: block;
-}
+
 </style>
