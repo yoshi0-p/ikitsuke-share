@@ -7,7 +7,7 @@
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>
-        <p class="icon" @click="del(index)" alt  v-if="auth2">[×]</p>
+        <p class="icon" @click="del(index)" alt  v-if= "auth" >[×]</p>
         </div>
               
         <p class="text">{{ value.item.share }}</p>
@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       shares: [],
-      auth2:false,
+      auth:false,
     };
   },
 
@@ -34,7 +34,7 @@ export default {
   check(){
   
    if(this.$store.state.user.id == 4){
-           this.auth2 = true;
+           this.auth = true;
        }; 
   },
   /*  send(index) {
