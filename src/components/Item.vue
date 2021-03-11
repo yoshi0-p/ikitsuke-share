@@ -126,7 +126,7 @@ export default {
   },
   created() {
   if(this.$store.state.user.id == 4){
-           auth = true;
+           this.auth = true;
        }; 
     this.getShares();
     
