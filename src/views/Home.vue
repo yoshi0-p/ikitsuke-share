@@ -28,15 +28,7 @@ export default {
   color          : #ffffff;            /* 文字の色 */
   font-size      : 36pt;               /* 文字のサイズ */
   letter-spacing : 4px;                /* 文字間 */
-  text-shadow    : 
-       2px  2px 1px #003366,
-      -2px  2px 1px #003366,
-       2px -2px 1px #003366,
-      -2px -2px 1px #003366,
-       2px  0px 1px #003366,
-       0px  2px 1px #003366,
-      -2px  0px 1px #003366,
-       0px -2px 1px #003366;        /* 文字の影 */
+  text-shadow    : 1px 1px 1px black /* 文字の影 */
 }
 .parent {
   display: flex;
