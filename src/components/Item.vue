@@ -37,7 +37,7 @@ export default {
   
    if(this.$store.state.user.id == 4){
            this.auth = true;
-       }; 
+       }
   },
   /*  send(index) {
       axios
