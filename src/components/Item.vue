@@ -146,6 +146,8 @@ export default {
 .pref{
   background-color: black;
   color: white;
+  margin-left:5px;
+  margin-right:5px;
 }
 .cover{
   border-color: black;
