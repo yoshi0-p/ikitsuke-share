@@ -125,9 +125,9 @@ export default {
 
   },
   created() {
-  /* if(this.$store.state.user.id == 4){
-           this.auth = true;
-       }; */
+  if(this.$store.state.user.id == 4){
+           auth = true;
+       }; 
     this.getShares();
     
   },
