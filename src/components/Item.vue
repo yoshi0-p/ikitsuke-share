@@ -9,7 +9,7 @@
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>
-        <p class="icon" @click="del(index)" alt >[×]</p>
+        <p class="icon" @click="del(index)" alt  v-if="auth">[×]</p>
         </div>
         
         <p class="text">{{ value.item.share }}</p>
@@ -28,14 +28,19 @@ export default {
   data() {
     return {
       shares: [],
-      path: true,
-      profile: true,
+      auth:false
     };
   },
 
   methods: {
      
+     check(){
 
+       if(this.$store.state.user.id == 4){
+           this.auth = true;
+       };
+
+     },
   /*  send(index) {
       axios
         .post("https://desolate-chamber-25914.herokuapp.com/api/comment", {
@@ -131,6 +136,7 @@ export default {
   },
   created() {
     this.getShares();
+    this.check();
   },
 };
 </script>
