@@ -1,5 +1,5 @@
 <template>
-  <div class="share">
+  <div class="share" v-if= "auth">
     <p class="form_title"><span id="char">店舗名</span></p>
     <input class="form" type="text" v-model="shop">
     <p class="form_title"><span id="char">所在地</span></p>
@@ -71,11 +71,19 @@ export default {
       share: "",
       shop:"",
       pref_id:"",
-      url:""
+      url:"",
+      auth:false
     };
   },
   methods: {
     
+    check(){
+  
+   if(this.$store.state.user.id == true){
+           this.auth = true;
+       }
+  },
+
     send() {
       if (this.share === "") {
         alert("シェアする内容を入力してください");
@@ -101,6 +109,9 @@ export default {
       }
     },
   },
+  created(){
+    this.check();
+  }
 };
 </script>
 
