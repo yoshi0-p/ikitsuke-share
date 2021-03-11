@@ -23,6 +23,7 @@ export default {
 <style scoped>
 
 .logo{
+  text-align: center;
   width:400px;
    display        : inline-block;
   color          : #ffffff;            /* 文字の色 */
