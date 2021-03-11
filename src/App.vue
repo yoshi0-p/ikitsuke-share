@@ -60,7 +60,7 @@ a {
 /* change colours to suit your needs */
 ins {
     background-color:#ff9;
-    color:#000;
+    color:rgb(255, 251, 217);
     text-decoration:none;
 }
 
@@ -101,10 +101,16 @@ input, select {
 }
 
 html {
-  background-color: #15202b;
+  background-color: #ffffe2;
 }
 * {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Noto Sans JP";
+}
+h1{
+  color:rgb(255, 255, 255);
+  font-size:36px;
+  text-shadow:2px 2px 2px black;
+  padding:10px;
 }
 </style>
