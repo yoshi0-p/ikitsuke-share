@@ -15,9 +15,7 @@
         <p class="text">{{ value.item.share }}</p>
         <a href="{value.item.url}">参考：{{value.item.url}}</a>
         <p class="name">Recommeded by:{{ value.name }}</p>
-      
-       
-       
+
   
       </div>
     </div>
@@ -154,6 +152,6 @@ export default {
   padding:10px;
   margin:10px;
   border: solid 3px #000000;
-  
+  width:300px;
 }
 </style>

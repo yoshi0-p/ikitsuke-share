@@ -58,7 +58,7 @@
     <p class="form_title"><span id="char">参考URL</span></p>
     <input class ="form" type="text" v-model="url">
     <div @click="send">
-      <button>お店をシェア</button>
+      <button id="btn">お店をシェア</button>
     </div>
   </div>
 </template>
@@ -106,6 +106,7 @@ export default {
 
 <style scoped>
 .share{
+  padding:10px;
   width:300px;
   background-color: rgb(143, 143, 143);
 }
@@ -123,5 +124,8 @@ export default {
   border-color:rgb(255, 255, 255);
   background-color:rgb(0, 0, 0);
   color:white;
+}
+#btn{
+  text-align:center;
 }
 </style>
