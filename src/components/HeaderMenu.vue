@@ -111,6 +111,7 @@ export default {
   flex-direction: column;
   background-color:rgb(153, 93, 15);
   color:white;
+  margin-bottom:10px;
 }
 #char{
   width:300px;
