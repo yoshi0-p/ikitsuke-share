@@ -14,7 +14,7 @@
         
         <p class="text">{{ value.item.share }}</p>
         <a href="{value.item.url}">参考：{{value.item.url}}</a>
-        <p class="name">Recommeded by{{ value.name }}</p>
+        <p class="name">Recommeded by:{{ value.name }}</p>
       
        
        

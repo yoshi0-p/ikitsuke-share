@@ -105,8 +105,12 @@ export default {
 </script>
 
 <style scoped>
+.share{
+  width:00px;
+  background-color: rgb(143, 143, 143);
+}
 .form{
-  width:300px;
+  width:100%;
   display: flex;
   flex-direction: column;
   background-color:rgb(255, 255, 255);
