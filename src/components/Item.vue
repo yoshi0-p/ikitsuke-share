@@ -24,7 +24,7 @@
         <p class="text">{{ value.item.pref_id }}</p>
         <p class="text">{{ value.item.share }}</p>
         <p class="text">{{ value.item.user_id }}</p>
-        <a href="{value.item.url }">{{value.item.url}}</a>
+        <a href="{value.item.url}">{{value.item.url}}</a>
       
        
        
@@ -149,54 +149,4 @@ export default {
 
 <style scoped>
 
-.cover{
-  width:100%;
-   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.flex {
-  display: flex;
-}
-.comment-box{
-  display:flex;
-}
-
-.icon {
-  width: 25px;
-  height: 25px;
-}
-.detail {
-  margin-left: 50px;
-}
-.message {
-  margin: 20px;
-  padding:10px;
-  background-color:rgb(255, 144, 231);
-  width:400px;
-  border-bottom: solid 1px red;
-  border-left: solid 1px red;
-
-}
-.name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-.text {
-  margin-top: 10px;
-}
-.number {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.comment {
-  margin: 10px;
-  padding:10px;
-  background-color:rgb(144, 229, 255);
-  width:400px;
-  border-bottom: solid 1px aquamarine;
-  border-left: solid 1px aquamarine;
-
-}
 </style>
