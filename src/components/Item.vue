@@ -127,7 +127,7 @@ export default {
 
   },
   created() {
-   if(this.$store.state.user.id == "4"){
+   if(this.$store.state.user.id == 4){
            this.auth = true;
        }; 
     this.getShares();
@@ -154,9 +154,11 @@ export default {
   margin:10px;
   border: solid 3px #000000;
   width:300px;
+  
+}
+.cover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 </style>
