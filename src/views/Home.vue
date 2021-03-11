@@ -1,12 +1,11 @@
 <template>
       
       <div class="parent">
-      <divclass="logo">
+      <div class="logo">
         <h2>イキツケ</h2>
         <h1>SHARE</h1>
       </div>
       <HeaderMenu />
-     
       <Item />
       </div>
 </template>
@@ -38,7 +37,6 @@ export default {
        0px  2px 1px #003366,
       -2px  0px 1px #003366,
        0px -2px 1px #003366;        /* 文字の影 */
-}
 }
 .parent {
   display: flex;
