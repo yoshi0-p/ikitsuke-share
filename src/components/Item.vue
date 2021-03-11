@@ -150,9 +150,9 @@ export default {
   margin-right:5px;
 }
 .cover{
-  border-color: black;
+  border:1px black;
   padding:10px;
   margin:10px;
-
+  
 }
 </style>
