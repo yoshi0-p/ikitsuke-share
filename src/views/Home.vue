@@ -23,6 +23,8 @@ export default {
 <style scoped>
 
 .logo{
+  margin-top:50px;
+  margin-bottom:50px;
   text-align: center;
   width:400px;
    display        : inline-block;
