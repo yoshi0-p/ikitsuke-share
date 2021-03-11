@@ -8,7 +8,7 @@
         </div>
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
-        <p class="text">{{ value.item.pref_id }}</p>
+        <p class="text pref"> {{ value.item.pref_id }} </p>
         <p class="icon" @click="del(index)" alt >[×]</p>
         </div>
         
@@ -141,5 +141,14 @@ export default {
 .title{
   display: flex;
   justify-content: flex-start;
+}
+
+.pref{
+  background-color: black;
+  color: white;
+}
+.cover{
+  border-color: black;
+
 }
 </style>
