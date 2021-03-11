@@ -14,9 +14,6 @@
 
            <div class="comment-box">
          <input v-model="content" type="text" />
-        <div @click="send(index)">
-          <button>追加</button>
-        </div> 
         </div>
 
         </div>
