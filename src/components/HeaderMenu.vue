@@ -106,6 +106,7 @@ export default {
 
 <style scoped>
 .share{
+  margin:10px;
   padding:10px;
   width:300px;
   background-color: rgb(143, 143, 143);
@@ -120,7 +121,7 @@ export default {
   resize: none;
 }
 #char{
-  width:300px;
+  width:340px;
   border-color:rgb(255, 255, 255);
   background-color:rgb(0, 0, 0);
   color:white;
