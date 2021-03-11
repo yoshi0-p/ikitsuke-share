@@ -5,15 +5,13 @@
         <div class="flex">
       <!--   <p class="icon" @click="fav(index)" >[★]</p> -->
       <!--    <p class="number">{{ value.like.length }}</p> -->
-          <p
-            class="icon"
-            @click="del(index)"
-            alt
-          >[×]</p>
-
         </div>
+        <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text">{{ value.item.pref_id }}</p>
+        <p class="icon" @click="del(index)" alt >[×]</p>
+        </div>
+        
         <p class="text">{{ value.item.share }}</p>
         <a href="{value.item.url}">参考：{{value.item.url}}</a>
         <p class="name">Recommeded by{{ value.name }}</p>
@@ -140,5 +138,7 @@ export default {
 </script>
 
 <style scoped>
-
+.title{
+  display: inline-block;
+}
 </style>
