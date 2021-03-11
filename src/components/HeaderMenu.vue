@@ -112,6 +112,7 @@ export default {
   background-color:rgb(255, 255, 255);
   color:rgb(0, 0, 0);
   margin-bottom:10px;
+  resize: none;
 }
 #char{
   width:300px;
