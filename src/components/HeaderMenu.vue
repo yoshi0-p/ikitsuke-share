@@ -107,7 +107,7 @@ export default {
   display:flex;  
   height: 75px;
 }
-.share textarea {
+.textarea, input {
   padding-left:20px;
   height:60px;
   vertical-align: middle;
