@@ -109,8 +109,8 @@ export default {
   width:300px;
   display: flex;
   flex-direction: column;
-  background-color:rgb(153, 93, 15);
-  color:white;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   margin-bottom:10px;
 }
 #char{
