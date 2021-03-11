@@ -32,7 +32,8 @@ export default {
   methods: {
   
   check(){
-   if(this.$store.state.user.id == 4){
+    let checkNum = this.$store.state.user.id;
+   if(checkNum == 4){
            this.auth = true;
        }; 
   },
