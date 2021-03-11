@@ -123,11 +123,11 @@ export default {
         "https://desolate-chamber-25914.herokuapp.com/api/shares"
       );
       console.log(shares);
-      for (let i = 0; i < shares.length; i++) {
+      for (let i = 0; i < shares.data.length; i++) {
         await axios
           .get(
             "https://desolate-chamber-25914.herokuapp.com/api/shares/" +
-              shares.data.data[i].id
+              shares.data[i].id
           )
           .then((response) => {
             
