@@ -106,7 +106,7 @@ export default {
 
 <style scoped>
 .form{
-  width:100px;
+  width:300px;
   display: flex;
   flex-direction: column;
 }
