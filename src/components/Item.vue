@@ -30,7 +30,12 @@ export default {
   },
 
   methods: {
-
+  
+  check(){
+   if(this.$store.state.user.id == 4){
+           this.auth = true;
+       }; 
+  },
   /*  send(index) {
       axios
         .post("https://desolate-chamber-25914.herokuapp.com/api/comment", {
@@ -125,9 +130,7 @@ export default {
 
   },
   created() {
-  if(this.$store.state.user.id == 4){
-           this.auth = true;
-       }; 
+    this.check(); 
     this.getShares();
     
   },
