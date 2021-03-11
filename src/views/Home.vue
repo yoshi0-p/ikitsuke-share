@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div parent>
       <div id="navi"><HeaderMenu /></div>
      
       <Item />
@@ -16,3 +16,10 @@ export default {
   }
 };
 </script>
+<style scoped>
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+</style>

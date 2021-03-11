@@ -110,6 +110,9 @@ export default {
   padding:10px;
   width:300px;
   background-color: rgb(143, 143, 143);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .form{
   width:100%;
@@ -129,4 +132,6 @@ export default {
 #btn{
   text-align:center;
 }
+
+
 </style>
