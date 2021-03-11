@@ -147,7 +147,7 @@ export default {
   margin-left:5px;
   margin-right:5px;
 }
-.cover{
+.message{
   border:1px black;
   padding:10px;
   margin:10px;
