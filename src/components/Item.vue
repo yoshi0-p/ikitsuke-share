@@ -153,6 +153,7 @@ export default {
   border:1px black;
   padding:10px;
   margin:10px;
+  border: solid 3px #000000;
   
 }
 </style>

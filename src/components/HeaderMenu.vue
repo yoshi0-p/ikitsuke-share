@@ -106,7 +106,7 @@ export default {
 
 <style scoped>
 .share{
-  width:00px;
+  width:300px;
   background-color: rgb(143, 143, 143);
 }
 .form{
