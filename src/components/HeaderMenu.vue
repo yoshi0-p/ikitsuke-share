@@ -53,7 +53,6 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
-
     <p class="form_title">クチコミ</p>
     <textarea class="form" v-model="share"></textarea>
     <p class="form_title">参考URL</p>
