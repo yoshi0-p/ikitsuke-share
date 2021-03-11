@@ -113,6 +113,7 @@ export default {
   color:white;
 }
 .form_title{
+  width:300px;
   border-color:rgb(255, 255, 255);
   background-color:rgb(0, 0, 0);
   color:white;
