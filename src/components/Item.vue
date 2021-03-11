@@ -149,6 +149,8 @@ export default {
 }
 .cover{
   border-color: black;
+  padding:10px;
+  margin:10px;
 
 }
 </style>
