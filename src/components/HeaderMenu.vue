@@ -109,5 +109,12 @@ export default {
   width:300px;
   display: flex;
   flex-direction: column;
+  background-color:rgb(153, 93, 15);
+  color:white;
+}
+.form_title{
+  border-color:rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
+  color:white;
 }
 </style>
