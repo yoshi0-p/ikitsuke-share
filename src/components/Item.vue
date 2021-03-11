@@ -13,7 +13,7 @@
         </div>
               
         <p class="text">{{ value.item.share }}</p>
-        <a href="{value.item.url}">参考：{{value.item.url}}</a>
+        <p class="text">参考：{{value.item.url}}</p>
         <p class="name">Recommeded by:{{ value.name }}</p>
  
       </div>
