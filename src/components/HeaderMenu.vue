@@ -2,8 +2,8 @@
   <div class="share">
     <p class="form_title">店舗名</p>
     <input class="form" type="text" v-model="shop">
-   　<p class="form_title">所在地</p>
-   <select class="form" name="pref_name" v-model="pref_id">
+    <p class="form_title">所在地</p>
+<select class="form" name="pref_name" v-model="pref_id">
 <option value="" selected>都道府県</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
