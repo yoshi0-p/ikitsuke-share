@@ -3,8 +3,6 @@
     <div v-for="(value,index) in shares" :key="index">
       <div class="message">
         <div class="flex">
-      <!--   <p class="icon" @click="fav(index)" >[★]</p> -->
-      <!--    <p class="number">{{ value.like.length }}</p> -->
         </div>
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>

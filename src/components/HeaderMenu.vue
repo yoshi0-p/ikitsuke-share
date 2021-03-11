@@ -55,7 +55,7 @@
 </select>
     <p class="form_title"><span id="char">クチコミ</span></p>
     <textarea class="form" v-model="share"></textarea>
-    <p class="form_title"><span id="char">参考URL</span></p>
+    <p class="form_title"><span id="char">参考</span></p>
     <input class ="form" type="text" v-model="url">
     <div @click="send">
       <button id="btn">お店をシェア</button>
