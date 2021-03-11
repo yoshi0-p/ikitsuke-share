@@ -7,7 +7,10 @@
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>
-        <p class="icon" @click="del(index)" alt  v-if= "auth" >[×]</p>
+        <div  v-if = "auth">
+          <p class="icon" @click="del(index)" alt  >[×]</p>
+          </div>
+        
         </div>
               
         <p class="text">{{ value.item.share }}</p>
