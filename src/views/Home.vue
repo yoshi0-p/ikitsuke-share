@@ -1,5 +1,5 @@
 <template>
-    <div parent>
+    <div class="parent">
       <div id="navi"><HeaderMenu /></div>
      
       <Item />
