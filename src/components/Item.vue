@@ -207,9 +207,9 @@ export default {
           });
       }
       this.shares = data;
-      console.log(this.shares);
       for(let i = 0; i < this.shares.length; i++){
        this.shares[i].item.pref_id_j = this.shares[i].item.pref_id;
+       console.log(this.shares);
     }
     },
 
