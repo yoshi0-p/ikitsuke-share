@@ -58,7 +58,7 @@
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id">
+      <div class="message" v-if= "value.item.pref_id == true">
         <div class="flex">
         </div>
         <div class="title">
