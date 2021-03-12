@@ -61,7 +61,7 @@
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id_j">
+      <div class="message" v-if= "value.item.pref_id">
         <div class="flex">
         </div>
         <div class="title">
@@ -103,7 +103,7 @@ export default {
   serch(){
     for(let i = 0; i < this.shares.length; i++){
     if(this.shares[i].item.pref_id != this.want_pref_id){
-       this.shares[i].item.pref_id_j = false;
+       this.shares[i].item.pref_id = false;
     }
     }
   },
@@ -207,10 +207,7 @@ export default {
           });
       }
       this.shares = data;
-      for(let i = 0; i < this.shares.length; i++){
-       this.shares[i].item.pref_id_j = this.shares[i].item.pref_id;
-       console.log(this.shares);
-    }
+    console.log(this.shares);
     },
 
 
