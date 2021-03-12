@@ -91,7 +91,7 @@ export default {
     return {
       shares: [],
       auth:false,
-      wanted_pref_id:""
+      want_pref_id:""
     };
   },
 
