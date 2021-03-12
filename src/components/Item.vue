@@ -58,7 +58,7 @@
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id_j">
+      <div class="message" v-if= "value.item.pref_id">
         <div class="flex">
         </div>
         <div class="title">
@@ -100,9 +100,13 @@ export default {
   serch(){
     for(let i = 0; i < this.shares.length; i++){
     if(this.shares[i].item.pref_id != this.want_pref_id){
-       this.shares[i].item.pref_id_j = false;
+       this.shares[i].item.pref_id = false;
     }
     }
+    this.$router.go({
+            path: this.$router.currentRoute.path,
+            force: true,
+          });
   },
   
   check(){
