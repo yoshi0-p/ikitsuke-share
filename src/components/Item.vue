@@ -91,7 +91,7 @@ export default {
     return {
       shares: [],
       auth:false,
-      want_pref_id:""
+      want_pref_id:"",
     };
   },
 
@@ -99,7 +99,7 @@ export default {
 
   serch(){
     for(let i = 0; i < this.shares.length; i++){
-    if(this.shares[i].item.pref_id != want_pref_id){
+    if(this.shares[i].item.pref_id != this.want_pref_id){
        this.shares[i].item.pref_id_j = false;
     }
     }
