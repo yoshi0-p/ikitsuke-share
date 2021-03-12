@@ -17,9 +17,9 @@
         <p class="name">Recommeded by:{{ value.name }}</p>
         
       </div>
-      <div class="ad" v-if="index%3==0">
+     <!-- <div class="ad" v-if="index%3==0">
         <p>３回に一回</p>
-        </div>
+        </div> -->
     </div>
   </div>
 </template>
