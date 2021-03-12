@@ -11,6 +11,7 @@
         <button @click="auth">新規登録</button>
       </div>
     </div>
+    <a href="/home">今日は見るだけ</a>
   </div>
 </template>
 
