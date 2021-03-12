@@ -54,11 +54,14 @@
   <div @click="serch" class="serch">
    <button id="btn">お店を絞る</button>
   </div>
+  <div @click="serch" class="reset">
+   <button id="btn">全て表示</button>
+  </div>
 
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id">
+      <div class="message" v-if= "value.item.pref_id_j">
         <div class="flex">
         </div>
         <div class="title">
@@ -100,8 +103,13 @@ export default {
   serch(){
     for(let i = 0; i < this.shares.length; i++){
     if(this.shares[i].item.pref_id != this.want_pref_id){
-       this.shares[i].item.pref_id = false;
+       this.shares[i].item.pref_id_j = false;
     }
+    }
+  },
+  reset(){
+    for(let i = 0; i < this.shares.length; i++){
+       this.shares[i].item.pref_id_j = this.shares[i].item.pref_id;
     }
   },
   
@@ -200,6 +208,9 @@ export default {
       }
       this.shares = data;
       console.log(this.shares);
+      for(let i = 0; i < this.shares.length; i++){
+       this.shares[i].item.pref_id_j = this.shares[i].item.pref_id;
+    }
     },
 
 
