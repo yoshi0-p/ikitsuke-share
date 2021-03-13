@@ -99,7 +99,7 @@ export default {
     };
   },
   computed: {
-    filteredUsers: function() {
+    filteredShares: function() {
 
     shares = [];
 
