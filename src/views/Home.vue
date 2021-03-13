@@ -17,7 +17,7 @@ import Item from "../components/Item";
 export default {
   method:{
    getPref(want_pref_id1){
-  this.want_pref_id1 = want_pref_id;
+  this.want_pref_id = want_pref_id1;
    }
   },
   components: {
