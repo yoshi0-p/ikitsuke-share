@@ -60,7 +60,7 @@
 
 
  <div class="cover">
-    <div v-for="(value,index) in shares" :key="index">
+    <div v-for="(value,index) in filteredShares" :key="index">
       <div class="message" v-if= "value.item.pref_id">
         <div class="flex">
         </div>
@@ -95,8 +95,30 @@ export default {
       shares: [],
       auth:false,
       want_pref_id:"",
+      filteredShares:[]
     };
   },
+  computed: {
+    filteredUsers: function() {
+
+    shares = [];
+
+    for(let i in this.shares) {
+
+        let share = this.shares[i];
+
+        if(shares.item.pref_id.indexOf(this.want_pref_id) !== -1) {
+
+            shares.push(share);
+
+        }
+
+    }
+
+    return shares;
+
+}
+},
 
   methods: {
 
