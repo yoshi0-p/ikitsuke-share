@@ -6,7 +6,8 @@
         <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
-      <Item />
+      <Item :want_pref_id="want_pref_id"></Item>
+      <Serch @want_pref_id = "getPref"></Serch>
       </div>
 </template>
 
@@ -14,11 +15,22 @@
 import HeaderMenu from "../components/HeaderMenu";
 import Item from "../components/Item";
 export default {
+  data(){
+     return{
+       want_pref_id:""
+  };
+  },
+  method:{
+   getPref(want_pref_id){
+  this.want_pref_id = want_pref_id;
+   }
+  },
   components: {
     HeaderMenu,
     Item
   }
 };
+
 </script>
 <style scoped>
 
@@ -39,3 +51,5 @@ export default {
   flex-wrap: wrap;
 }
 </style>
+
+

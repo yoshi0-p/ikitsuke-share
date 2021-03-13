@@ -1,8 +1,8 @@
 <template>
-  <div class="serch">
-   <p class="form_title"><span id="char">所在地</span></p>
-<select class="form" name="pref_name" v-model="pref_id">
-<option value="" selected>都道府県</option>
+<div>
+ <p class="form_title"><span id="char">所在地</span></p>
+<select class="form" name="pref_name" v-model="want_pref_id">
+<option value="" selected>都道府県を指定</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
 <option value="岩手県">岩手県</option>
@@ -51,10 +51,9 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
- <div @click="send">
-      <button id="btn">お店を絞る</button>
-    </div>
+<button @click="send" id="btn">お店を表示</button>
 </div>
+  
 </template>
 
 <script>
@@ -64,6 +63,11 @@ export default {
       pref_id:"",
     };
   },
+  method:{
+    send(){
+      this.$emit("want_pref_id",this.want_pref_id);
+    }
+  }
 }
 </script>
 
@@ -90,6 +94,7 @@ export default {
   color:white;
 }
 #btn{
+  width:100%;
   text-align:center;
 }
 </style>
