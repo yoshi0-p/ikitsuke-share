@@ -61,7 +61,7 @@
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id">
+      <div class="message" v-if= "shares[i].item.pref_id != want_pref_id">
         <div class="flex">
         </div>
         <div class="title">
