@@ -2,7 +2,7 @@
 <div>
    <p class="form_title"><span id="char">所在地</span></p>
 <select class="form" name="pref_name" v-model="want_pref_id">
-<option value="" selected>都道府県</option>
+<option value="" selected>都道府県ごとにお店を表示</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
 <option value="岩手県">岩手県</option>
@@ -51,13 +51,6 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
-  <div @click="serch" class="serch">
-   <button id="btn">お店を絞る</button>
-  </div>
-  <div @click="serch" class="reset">
-   <button id="btn">全て表示</button>
-  </div>
-
 
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
@@ -95,24 +88,10 @@ export default {
       shares: [],
       auth:false,
       want_pref_id:"",
-      filteredShares:[]
     };
   },
   
   methods: {
-
-  serch(){
-    for(let i = 0; i < this.shares.length; i++){
-    if(this.shares[i].item.pref_id != this.want_pref_id){
-       this.shares[i].item.pref_id = false;
-    }
-    }
-  },
-  reset(){
-    for(let i = 0; i < this.shares.length; i++){
-       this.shares[i].item.pref_id_j = this.shares[i].item.pref_id;
-    }
-  },
   
   check(){
   
