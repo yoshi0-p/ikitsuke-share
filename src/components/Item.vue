@@ -26,7 +26,7 @@
 <script>
 import axios from "axios";
 export default {
-  props:["want_pref_id"],
+  props:["want_pref_id2"],
   data() {
     return {
       shares: [],

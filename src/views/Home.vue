@@ -6,7 +6,7 @@
         <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
-      <Item :want_pref_id2="want_pref_id2"></Item>
+      <Item :want_pref_id1="want_pref_id2"></Item>
       <Serch @want_pref_id1 = "getPref"></Serch>
       </div>
 </template>
@@ -17,12 +17,12 @@ import Item from "../components/Item";
 export default {
   data(){
      return{
-       want_pref_id:""
+       want_pref_id1:""
   };
   },
   method:{
    getPref(want_pref_id1){
-  this.want_pref_id2 = want_pref_id1;
+  this.want_pref_id1 = want_pref_id;
    }
   },
   components: {
