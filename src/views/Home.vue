@@ -6,8 +6,8 @@
         <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
-      <Item :want_pref_id="want_pref_id"></Item>
-      <Serch @want_pref_id = "getPref"></Serch>
+      <Item :want_pref_id2="want_pref_id2"></Item>
+      <Serch @want_pref_id1 = "getPref"></Serch>
       </div>
 </template>
 
@@ -21,8 +21,8 @@ export default {
   };
   },
   method:{
-   getPref(want_pref_id){
-  this.want_pref_id = want_pref_id;
+   getPref(want_pref_id1){
+  this.want_pref_id2 = want_pref_id1;
    }
   },
   components: {

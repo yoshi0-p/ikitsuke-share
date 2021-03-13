@@ -65,7 +65,7 @@ export default {
   },
   method:{
     send(){
-      this.$emit("want_pref_id",this.want_pref_id);
+      this.$emit("want_pref_id1",this.want_pref_id);
     }
   }
 }
