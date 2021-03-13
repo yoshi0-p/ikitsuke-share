@@ -216,6 +216,9 @@ export default {
   created() {
     this.check(); 
     this.getShares();
+    for(let i = 0; i < this.shares.length; i++){
+       this.shares[i].item.pref_id_j = true;
+    }
     
   },
 };
