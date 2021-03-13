@@ -15,11 +15,6 @@
 import HeaderMenu from "../components/HeaderMenu";
 import Item from "../components/Item";
 export default {
-  data(){
-     return{
-       want_pref_id1:""
-  };
-  },
   method:{
    getPref(want_pref_id1){
   this.want_pref_id1 = want_pref_id;
