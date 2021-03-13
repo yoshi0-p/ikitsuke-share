@@ -31,7 +31,7 @@ export default {
     return {
       shares: [],
       auth:false,
-      want_pref_id2:"",
+      
     };
   },
   
