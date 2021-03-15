@@ -52,18 +52,15 @@ h2{
   line-height: 50px;
 }
 .image{
-  background: url(../assets/mise.jpg) no-repeat;
+  background: url(../assets/sara.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-.cover{
-  height:200px;
-}
+
 .catch{
   text-align: center;
-  margin:100px;
+  padding:100px;
   color:white;
-  background-color: black;
 
 }
 .parent {
