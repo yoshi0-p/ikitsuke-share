@@ -6,23 +6,23 @@
         <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
-      <Item :want_pref_id1="want_pref_id2"></Item>
-      <Serch @want_pref_id1 = "getPref"></Serch>
+      <Item ></Item>
+      <Serch ></Serch>
       </div>
 </template>
 
 <script>
 import HeaderMenu from "../components/HeaderMenu";
 import Item from "../components/Item";
+import Serch from "../components/Serch";
 export default {
   method:{
-   getPref(want_pref_id1){
-  this.want_pref_id = want_pref_id1;
-   }
+  
   },
   components: {
     HeaderMenu,
-    Item
+    Item,
+    Serch
   }
 };
 

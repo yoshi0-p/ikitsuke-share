@@ -2,7 +2,7 @@
 <div>
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id == want_pref_id2">
+      <div class="message" v-if= "value.item.pref_id == want_pref_id">
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>
@@ -26,7 +26,6 @@
 <script>
 import axios from "axios";
 export default {
-  props:["want_pref_id2"],
   data() {
     return {
       shares: [],
