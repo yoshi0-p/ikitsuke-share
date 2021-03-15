@@ -92,6 +92,12 @@ h2{
 .blue{
   color:rgb(141,187,224);
 }
+
+@media screen and (max-width: 480px) {
+  .parent {
+   flex-wrap: wrap;
+}
+}
 </style>
 
 
