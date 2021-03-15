@@ -1,7 +1,7 @@
 <template>
 <div>
  <p class="form_title"><span id="char">所在地</span></p>
-<select class="form" name="pref_name" v-model="want_pref_id">
+<select class="form" name="pref_name" v-model="wanted_pref_id">
 <option value="" selected>都道府県を指定</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
@@ -66,7 +66,7 @@ export default {
   methods: {
     serch() {
       this.$store.dispatch('changeWantedPre', {
-        wanted_pref_id: this.want_pref_id
+        wanted_pref_id: this.wanted_pref_id
       });
     }
   }

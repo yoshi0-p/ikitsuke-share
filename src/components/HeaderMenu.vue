@@ -97,7 +97,7 @@ export default {
 
           })
           .then((response) => {
-          /*  console.log(response); */
+            console.log(response); 
             alert("シェアしました");
             this.share = "";
             this.$router.go({
