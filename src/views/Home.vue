@@ -42,9 +42,6 @@ export default {
 }
 .parent {
   margin-top:30px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 </style>
 
