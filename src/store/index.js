@@ -11,7 +11,7 @@ export default new Vuex.Store({
   state: {
     auth: "",
     user: "",
-    w_pre:"",
+    wanted_pref_id:"",
   },
   mutations: {
     auth(state, payload) {
@@ -27,7 +27,7 @@ export default new Vuex.Store({
       state.user.profile = payload;
     },
     changeWantedPre(state, payload) {
-      state.w_pre = payload;
+      state.wanted_pref_id = payload;
     }
   },
   actions: {
