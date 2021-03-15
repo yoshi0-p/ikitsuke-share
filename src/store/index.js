@@ -51,7 +51,7 @@ export default new Vuex.Store({
       commit("user", responseUser.data.data[0]);
       router.replace("/home");
     },
-    logout({ commit }) {
+    /*logout({ commit }) {
       axios
         .post("https://desolate-chamber-25914.herokuapp.com/api/logout", {
           auth: this.state.auth,
@@ -64,7 +64,7 @@ export default new Vuex.Store({
         .catch((error) => {
           console.log(error);
         });
-    },
+    },*/
     changeUserData({ commit }, { profile }) {
       commit("changeUserData", profile);
     },
