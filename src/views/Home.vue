@@ -41,15 +41,16 @@ export default {
 <style scoped>
 
 .logo{
-  
+  padding-left:20px;
   color: white;
-  background-color: rgb(137, 252, 133);
+  background-color: rgb(106, 247, 101);
   height:50px;
   
 }
 h2{
   color:white;
   line-height: 50px;
+  text-shadow:1px 1px 0 rgb(0, 0, 0),-1px 1px 0 rgb(0, 0, 0),1px -1px 0 rgb(0, 0, 0),-1px -1px 0 rgb(0, 0, 0);
 }
 .image{
   background: url(../assets/sara.jpg) no-repeat;
