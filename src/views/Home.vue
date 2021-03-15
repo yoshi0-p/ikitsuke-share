@@ -36,6 +36,9 @@ export default {
 
 </script>
 <style scoped>
+h2{
+  color:white;
+}
 .logo{
   color: white;
   background-color: black;

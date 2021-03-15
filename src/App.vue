@@ -59,14 +59,14 @@ a {
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
+    background-color:rgb(255, 255, 255);
     color:rgb(255, 251, 217);
     text-decoration:none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
+    background-color:rgb(255, 255, 255);
     color:#000;
     font-style:italic;
     font-weight:bold;
@@ -101,7 +101,7 @@ input, select {
 }
 
 html {
-  background-color: #ffffe2;
+  background-color: #ffffff;
 }
 * {
   color: rgb(0, 0, 0);
