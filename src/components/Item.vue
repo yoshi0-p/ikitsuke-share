@@ -1,7 +1,7 @@
 <template>
 <div>
  <div class="cover">
-   <div v-if="$store.state.wanted_pref_id">
+   <div class="title" v-if="$store.state.wanted_pref_id">
       <p>{{$store.state.wanted_pref_id}}のイキツケ一覧
       </p>
    </div>
@@ -147,6 +147,9 @@ export default {
 </script>
 
 <style scoped>
+.title{
+  text-align: center;
+}
 .cover {
   display: flex;
   justify-content: center;
