@@ -160,7 +160,7 @@ export default {
   
 }
 .message{
-  width:30vw;
+  width:300vw;
   background-color:rgb(255, 212, 155);
   border:solid;
   border-color: #ffc851;
