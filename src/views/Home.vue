@@ -6,11 +6,11 @@
       <p class="catch">誰かのイキツケはきっといい店だ。</p>
       <div class="parent">
         <div class="post field">
-        <p>オススメのお店を投稿する</p>
+        <p>イキツケを紹介する</p>
         <HeaderMenu />
       </div>
       <div class="serch field">
-        <p>自分の街のオススメ店を見る</p>
+        <p>街のイキツケを見る</p>
         <Serch ></Serch>
       </div>
       </div>
@@ -51,10 +51,9 @@ h2{
 .parent {
   display: flex;
   justify-content: center;
-  background-color: black;
 }
 .field{
-  width:40vw;
+  width:50vw;
   padding:20px;
   color:white;
 }
