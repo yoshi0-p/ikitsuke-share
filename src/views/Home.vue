@@ -4,7 +4,9 @@
         <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
       </div>
       <div class="image">
-       <p class="catch">誰かのイキツケはきっといい店だ。</p>
+        <div>
+         <p class="catch">誰かのイキツケはきっといい店だ。</p>
+        </div>
       </div>
       <div class="parent">
         <div class="post field">
@@ -56,8 +58,9 @@ h2{
 }
 .catch{
   text-align: center;
-  padding:100px;
-  color:black;
+  margin:100px;
+  color:white;
+  background-color: black;
 
 }
 .parent {
