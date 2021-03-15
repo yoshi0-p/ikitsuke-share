@@ -2,7 +2,7 @@
 <div>
  <div class="cover">
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id || $store.state.wanted_pref_id != true">
+      <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id || $store.state.wanted_pref_id == null>
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>
