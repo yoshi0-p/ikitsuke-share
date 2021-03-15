@@ -93,7 +93,7 @@ h2{
   color:rgb(141,187,224);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .parent {
    flex-wrap: wrap;
 }
