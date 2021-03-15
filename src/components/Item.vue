@@ -167,4 +167,8 @@ export default {
   padding:10px;
   margin:25px;
 }
+.cover{
+  display: flex;
+  justify-content: center;
+}
 </style>
