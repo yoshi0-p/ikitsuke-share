@@ -41,6 +41,7 @@ export default {
   text-shadow    : 1px 1px 1px black /* 文字の影 */
 }
 .parent {
+  margin-top:30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

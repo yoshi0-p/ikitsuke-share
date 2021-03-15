@@ -11,6 +11,7 @@ export default new Vuex.Store({
   state: {
     auth: "",
     user: "",
+    w_pre:"",
   },
   mutations: {
     auth(state, payload) {
@@ -25,6 +26,9 @@ export default new Vuex.Store({
     changeUserData(state, payload) {
       state.user.profile = payload;
     },
+    changeWantedPre(state, payload) {
+      state.w_pre = payload;
+    }
   },
   actions: {
     async login({ commit }, { email, password }) {
@@ -64,5 +68,8 @@ export default new Vuex.Store({
     changeUserData({ commit }, { profile }) {
       commit("changeUserData", profile);
     },
+    changeWantedPte({commit},{wanted_pref_id}) {
+      commit("changeWantedPre",wanted_pref_id);
+    }
   },
 });

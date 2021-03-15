@@ -63,6 +63,13 @@ export default {
       pref_id:"",
     };
   },
+  methods: {
+    auth() {
+      this.$store.dispatch('changeWantedPre', {
+        wanted_pref_id: this.want_pref_id
+      });
+    }
+  }
 }
 </script>
 
