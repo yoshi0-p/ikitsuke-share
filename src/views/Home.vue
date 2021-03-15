@@ -45,6 +45,10 @@ h2{
   height:50px;
   line-height: 50px;
 }
+.catch{
+  text-align: center;
+  padding:50px;
+}
 .post{
   background-color: rgb(224, 141, 141);
   color:white;
