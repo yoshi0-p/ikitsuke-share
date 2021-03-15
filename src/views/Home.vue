@@ -47,7 +47,7 @@ h2{
   line-height: 50px;
 }
 .image{
-  background: url(../src/assets/mise.jpg) no-repeat;
+  background: url(../assets/mise.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
