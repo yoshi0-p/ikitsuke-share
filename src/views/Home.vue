@@ -37,14 +37,18 @@ export default {
 
 </script>
 <style scoped>
-h2{
-  color:white;
-}
+
 .logo{
+  
   color: white;
   background-color: black;
-  height:50px;
-  line-height: 50px;
+  height:100px;
+  
+}
+h2{
+  color:white;
+  font-size:32px;
+  line-height: 100px;
 }
 .image{
   background: url(../assets/mise.jpg) no-repeat;
@@ -58,7 +62,7 @@ h2{
 .parent {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 .field{
   width:50vw;
