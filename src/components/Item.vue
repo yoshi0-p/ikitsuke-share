@@ -156,8 +156,12 @@ export default {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 .mesage{
   width:30vw;
+  background-color:burlywood;
+  border-color: brown;
+
 }
 </style>
