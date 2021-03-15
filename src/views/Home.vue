@@ -1,21 +1,20 @@
 <template>
-      
-      <div class="parent">
+    <div>
       <div class="logo">
         <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
       </div>
       <p class="catch">誰かのイキツケはきっといい店だ。</p>
-      <div class="post">
+      <div class="parent">
+        <div class="post">
         <p>オススメのお店を投稿する</p>
         <HeaderMenu />
       </div>
       <div class="serch">
         <p>自分の街のオススメ店を見る</p>
         <Serch ></Serch>
-        <Item ></Item>
       </div>
-      
-      <Item ></Item>
+      </div>
+       <Item ></Item>
       </div>
 </template>
 
@@ -48,6 +47,10 @@ h2{
 .catch{
   text-align: center;
   padding:50px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
 }
 .post{
   background-color: rgb(224, 141, 141);
