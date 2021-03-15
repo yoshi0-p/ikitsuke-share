@@ -158,7 +158,7 @@ export default {
   flex-wrap: wrap;
   
 }
-.mesage{
+.message{
   width:30vw;
   background-color:burlywood;
   border-color: brown;
