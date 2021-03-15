@@ -49,6 +49,7 @@ h2{
   color:white;
   font-size:32px;
   line-height: 100px;
+  background-color: black;
 }
 .image{
   background: url(../assets/mise.jpg) no-repeat;
