@@ -56,7 +56,7 @@ h2{
 }
 .catch{
   text-align: center;
-  margin:100px;
+  padding:100px;
   color:white;
 
 }
