@@ -59,9 +59,9 @@ h2{
 
 .catch{
   text-align: center;
-  padding-top:100px;
-  padding-bottom:100px;
-  color:white;
+  padding-top:150px;
+  padding-bottom:150px;
+  color:black;
 
 }
 .parent {
