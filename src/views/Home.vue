@@ -71,7 +71,8 @@ h2{
   /*flex-wrap: wrap;*/
 }
 .field{
-  width:50vw;
+  padding-top:10vw;
+  width:40vw;
   padding:20px;
 }
 .post{
