@@ -4,7 +4,7 @@
         <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
       </div>
       <div class="image">
-        <div>
+        <div class="cover">
          <p class="catch">誰かのイキツケはきっといい店だ。</p>
         </div>
       </div>
@@ -55,6 +55,9 @@ h2{
   background: url(../assets/mise.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+}
+.cover{
+  height:200px;
 }
 .catch{
   text-align: center;
