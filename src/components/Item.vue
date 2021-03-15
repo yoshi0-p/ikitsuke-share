@@ -130,7 +130,7 @@ export default {
           });
       }
       this.shares = data;
- /*   console.log(this.shares); */
+    console.log(this.shares); 
     },
 
 

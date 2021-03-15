@@ -64,10 +64,10 @@ export default new Vuex.Store({
         .catch((error) => {
           console.log(error);
         });
-    },*/
+    },
     changeUserData({ commit }, { profile }) {
       commit("changeUserData", profile);
-    },
+    },*/
     changeWantedPte({commit},{wanted_pref_id}) {
       commit("changeWantedPre",wanted_pref_id);
     }
