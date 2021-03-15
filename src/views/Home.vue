@@ -58,7 +58,7 @@ h2{
   text-align: center;
   margin:100px;
   color:white;
-  background-color: black;
+
 }
 .parent {
   display: flex;
