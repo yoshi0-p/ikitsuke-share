@@ -54,19 +54,21 @@ h2{
 }
 .post{
   width:40vw;
+  padding:20px;
   background-color: rgb(224, 141, 141);
   color:white;
 }
 .serch{
   width:40vw;
+  padding:20px;
   background-color: rgb(141, 187, 224);
   color:white;
 }
 .red{
-  color:red;
+  color:rgb(224, 141, 141);
 }
 .blue{
-  color:blue;
+  color:rgb(141,187,224);
 }
 </style>
 
