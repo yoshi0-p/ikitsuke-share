@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="title" v-if="$store.state.wanted_pref_id">
+  <div class="pre" v-if="$store.state.wanted_pref_id">
       <p>{{$store.state.wanted_pref_id}}のイキツケ一覧
       </p>
    </div>
@@ -148,7 +148,7 @@ export default {
 </script>
 
 <style scoped>
-.title{
+.pre{
   text-align: center;
   font-size:32px;
 }
