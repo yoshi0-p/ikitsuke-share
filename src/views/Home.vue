@@ -42,14 +42,12 @@ export default {
   
   color: white;
   background-color: black;
-  height:100px;
+  height:50px;
   
 }
 h2{
   color:white;
-  font-size:32px;
-  line-height: 100px;
-  background-color: black;
+  line-height: 50px;
 }
 .image{
   background: url(../assets/mise.jpg) no-repeat;
@@ -58,7 +56,9 @@ h2{
 }
 .catch{
   text-align: center;
-  padding:50px;
+  padding:100px;
+  color:white;
+  background-color: black;
 }
 .parent {
   display: flex;
