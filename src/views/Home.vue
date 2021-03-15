@@ -57,7 +57,7 @@ h2{
 .catch{
   text-align: center;
   padding:100px;
-  color:white;
+  color:black;
 
 }
 .parent {
