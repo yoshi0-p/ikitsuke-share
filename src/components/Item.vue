@@ -104,7 +104,7 @@ export default {
             this.shares[index].item.id
         )
         .then((response) => {
-        /*  console.log(response); */
+          console.log(response); 
           this.$router.go({
             path: this.$router.currentRoute.path,
             force: true,
@@ -116,7 +116,7 @@ export default {
       const shares = await axios.get(
         "https://desolate-chamber-25914.herokuapp.com/api/shares"
       );
-   /*   console.log(shares); */
+      console.log(shares); 
       for (let i = 0; i < shares.data.data.length; i++) {
         await axios
           .get(
