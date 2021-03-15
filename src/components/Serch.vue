@@ -57,6 +57,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -68,8 +69,8 @@ export default {
       this.$store.dispatch('changeWantedPre', {
         wanted_pref_id: this.wanted_pref_id
       });
-      console(this.wanted_pref_id);
-      console(this.$store.state.wanted_pref_id);
+      console.log(this.wanted_pref_id);
+      console.log(this.$store.state.wanted_pref_id);
     }
   }
 }
