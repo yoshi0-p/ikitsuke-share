@@ -151,6 +151,7 @@ export default {
 .pre{
   text-align: center;
   font-size:32px;
+  padding-bottom:10px;
 }
 .cover {
   display: flex;
@@ -163,5 +164,6 @@ export default {
   background-color:rgb(255, 212, 155);
   border:solid;
   border-color: #ffc851;
+  padding:10px;
 }
 </style>
