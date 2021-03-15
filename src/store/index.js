@@ -11,7 +11,7 @@ export default new Vuex.Store({
   state: {
     auth: "",
     user: "",
-    wanted_pref_id:"-",
+    wanted_pref_id:"",
   },
   mutations: {
     auth(state, payload) {
