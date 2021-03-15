@@ -1,10 +1,11 @@
 <template>
 <div>
- <div class="cover">
-   <div class="title" v-if="$store.state.wanted_pref_id">
+  <div class="title" v-if="$store.state.wanted_pref_id">
       <p>{{$store.state.wanted_pref_id}}のイキツケ一覧
       </p>
    </div>
+ <div class="cover">
+   
     <div v-for="(value,index) in shares" :key="index">
       <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id">
         <div class="title">
@@ -149,6 +150,7 @@ export default {
 <style scoped>
 .title{
   text-align: center;
+  font-size:32px;
 }
 .cover {
   display: flex;
