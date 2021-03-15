@@ -165,5 +165,6 @@ export default {
   border:solid;
   border-color: #ffc851;
   padding:10px;
+  margin:25px;
 }
 </style>
