@@ -97,6 +97,11 @@ h2{
   .parent {
    flex-wrap: wrap;
 }
+.field{
+  margin:5vw;
+  width:90vw;
+  padding:20px;
+}
 }
 </style>
 
