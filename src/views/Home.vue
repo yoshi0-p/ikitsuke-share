@@ -5,11 +5,11 @@
       </div>
       <p class="catch">誰かのイキツケはきっといい店だ。</p>
       <div class="parent">
-        <div class="post">
+        <div class="post field">
         <p>オススメのお店を投稿する</p>
         <HeaderMenu />
       </div>
-      <div class="serch">
+      <div class="serch field">
         <p>自分の街のオススメ店を見る</p>
         <Serch ></Serch>
       </div>
@@ -51,18 +51,18 @@ h2{
 .parent {
   display: flex;
   justify-content: center;
+  background-color: black;
+}
+.field{
+  width:40vw;
+  padding:20px;
+  color:white;
 }
 .post{
-  width:40vw;
-  padding:20px;
   background-color: rgb(224, 141, 141);
-  color:white;
 }
 .serch{
-  width:40vw;
-  padding:20px;
   background-color: rgb(141, 187, 224);
-  color:white;
 }
 .red{
   color:rgb(224, 141, 141);
