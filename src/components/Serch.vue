@@ -51,7 +51,7 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
-<button @click="send" id="btn">お店を表示</button>
+<button @click="serch" id="btn">お店を表示</button>
 </div>
   
 </template>
@@ -64,7 +64,7 @@ export default {
     };
   },
   methods: {
-    auth() {
+    serch() {
       this.$store.dispatch('changeWantedPre', {
         wanted_pref_id: this.want_pref_id
       });
