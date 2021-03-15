@@ -43,7 +43,7 @@ export default {
 .logo{
   padding-left:20px;
   color: white;
-  background-color: rgb(214, 255, 212);
+  background-color: rgb(255, 201, 100);
   height:50px;
   
 }
