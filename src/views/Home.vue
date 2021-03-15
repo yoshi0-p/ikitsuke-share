@@ -6,8 +6,8 @@
         <h1 >SHARE</h1>
       </div>
       <HeaderMenu />
-      <Item ></Item>
       <Serch ></Serch>
+      <Item ></Item>
       </div>
 </template>
 
