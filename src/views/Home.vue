@@ -43,7 +43,7 @@ export default {
 .logo{
   
   color: white;
-  background-color: black;
+  background-color: rgb(137, 252, 133);
   height:50px;
   
 }
