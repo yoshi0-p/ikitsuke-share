@@ -3,7 +3,9 @@
       <div class="logo">
         <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
       </div>
-      <p class="catch">誰かのイキツケはきっといい店だ。</p>
+      <div class="image">
+       <p class="catch">誰かのイキツケはきっといい店だ。</p>
+      </div>
       <div class="parent">
         <div class="post field">
         <p class="action">イキツケを紹介する</p>
@@ -44,6 +46,11 @@ h2{
   height:50px;
   line-height: 50px;
 }
+.image{
+  background: url(src/assets/mise.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .catch{
   text-align: center;
   padding:50px;
@@ -51,6 +58,7 @@ h2{
 .parent {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .field{
   width:50vw;
