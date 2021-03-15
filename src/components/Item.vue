@@ -147,5 +147,12 @@ export default {
 </script>
 
 <style scoped>
-
+.cover {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mesage{
+  width:30vw;
+}
 </style>
