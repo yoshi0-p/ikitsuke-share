@@ -6,11 +6,11 @@
       <p class="catch">誰かのイキツケはきっといい店だ。</p>
       <div class="parent">
         <div class="post field">
-        <p>イキツケを紹介する</p>
+        <p class="action">イキツケを紹介する</p>
         <HeaderMenu />
       </div>
       <div class="serch field">
-        <p>街のイキツケを見る</p>
+        <p class="action">街のイキツケを見る</p>
         <Serch ></Serch>
       </div>
       </div>
@@ -55,13 +55,17 @@ h2{
 .field{
   width:50vw;
   padding:20px;
-  color:white;
 }
 .post{
   background-color: rgb(224, 141, 141);
 }
 .serch{
   background-color: rgb(141, 187, 224);
+}
+.action{
+  text-align: center;
+  color:white;
+  font-size: 24px;
 }
 .red{
   color:rgb(224, 141, 141);
