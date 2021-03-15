@@ -115,30 +115,6 @@ export default {
 </script>
 
 <style scoped>
-.share{
-  margin:10px;
-  padding:10px;
-  width:300px;
-  background-color: rgb(143, 143, 143);
-}
-.form{
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  background-color:rgb(255, 255, 255);
-  color:rgb(0, 0, 0);
-  margin-bottom:10px;
-  resize: none;
-}
-#char{
-  width:340px;
-  border-color:rgb(255, 255, 255);
-  background-color:rgb(0, 0, 0);
-  color:white;
-}
-#btn{
-  text-align:center;
-}
 
 
 </style>

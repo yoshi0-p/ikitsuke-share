@@ -143,28 +143,5 @@ export default {
 </script>
 
 <style scoped>
-.title{
-  display: flex;
-  justify-content: flex-start;
-}
 
-.pref{
-  background-color: black;
-  color: white;
-  margin-left:5px;
-  margin-right:5px;
-}
-.message{
-  border:1px black;
-  padding:10px;
-  margin:10px;
-  border: solid 3px #000000;
-  width:300px;
-  
-}
-.cover{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 </style>

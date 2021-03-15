@@ -29,20 +29,6 @@ export default {
 </script>
 <style scoped>
 
-.logo{
-  margin-top:50px;
-  margin-bottom:50px;
-  text-align: center;
-  width:400px;
-   display        : inline-block;
-  color          : #ffffff;            /* 文字の色 */
-  font-size      : 36pt;               /* 文字のサイズ */
-  letter-spacing : 4px;                /* 文字間 */
-  text-shadow    : 1px 1px 1px black /* 文字の影 */
-}
-.parent {
-  margin-top:30px;
-}
 </style>
 
 
