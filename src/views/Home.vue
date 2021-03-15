@@ -60,8 +60,8 @@ h2{
 
 .catch{
   text-align: center;
-  padding-top:150px;
-  padding-bottom:150px;
+  padding-top:200px;
+  padding-bottom:200px;
   color:black;
 
 }
