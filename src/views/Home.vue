@@ -98,8 +98,8 @@ h2{
    flex-wrap: wrap;
 }
 .field{
-  margin:5vw;
-  width:90vw;
+  margin:2.5vw;
+  width:95vw;
   padding:20px;
 }
 }
