@@ -82,6 +82,7 @@ export default {
 }
 #btn{
   width:80%;
-  margin:10%;
+  margin-left:10%;
+  margin-right:10%;
 }
 </style>
