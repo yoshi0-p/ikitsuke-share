@@ -81,7 +81,7 @@ export default {
   width:100%;
 }
 #btn{
-  margin:5vh;
-  text-align: center;
+  width:80%;
+  margin:10%;
 }
 </style>
