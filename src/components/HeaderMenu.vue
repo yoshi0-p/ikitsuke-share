@@ -117,6 +117,7 @@ export default {
 <style scoped>
 .form{
   width:100%;
+  resize:none;
 }
 #btn{
   margin:5vh;
