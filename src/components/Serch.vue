@@ -79,14 +79,13 @@ export default {
 <style scoped>
 .form{
   width:100%;
-  margin-top:10px;
+  margin-bottom:10px;
   resize:none;
 }
 #btn{
   width:80%;
-  margin-bottom:10px;
+  margin-top:10px;
   margin-left:10%;
   margin-right:10%;
-  background-color:blue;
 }
 </style>
