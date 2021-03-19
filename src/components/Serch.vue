@@ -87,5 +87,6 @@ export default {
   margin-bottom:10px;
   margin-left:10%;
   margin-right:10%;
+  background-color:blue;
 }
 </style>
