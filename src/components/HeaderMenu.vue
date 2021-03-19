@@ -120,7 +120,7 @@ export default {
   resize:none;
 }
 #btn{
-  margin:5vh;
+  width:80%;
   text-align: center;
 }
 </style>
