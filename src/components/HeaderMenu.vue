@@ -122,6 +122,7 @@ export default {
 }
 #btn{
   width:80%;
+  margin-bottom:10px;
   margin-left:10%;
   margin-right:10%;
 }
