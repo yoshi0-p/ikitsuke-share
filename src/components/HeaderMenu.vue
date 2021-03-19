@@ -118,5 +118,8 @@ export default {
 .form{
   width:100%;
 }
-
+#btn{
+  margin:5vh;
+  text-align: center;
+}
 </style>
