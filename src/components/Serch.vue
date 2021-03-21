@@ -88,6 +88,6 @@ export default {
   margin-left:10%;
   margin-right:10%;
   background-color: rgb(112, 171, 219); 
-  border-radius: 5px;
+  border-radius: 20px;
 }
 </style>
