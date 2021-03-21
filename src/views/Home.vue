@@ -2,6 +2,7 @@
     <div>
       <div class="logo">
         <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
+        <a class="how" href="">使い方</a>
       </div>
       <div class="image">
         <div class="cover">
@@ -45,7 +46,10 @@ export default {
   color: white;
   background-color: rgb(255, 201, 100);
   height:50px;
-  
+}
+.how{
+  height:50px;
+  margin-right:0px;
 }
 h2{
   color:white;
