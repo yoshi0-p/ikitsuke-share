@@ -1,6 +1,6 @@
 <template>
       <div class="logo">
-        <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
+        <a href="/"> <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2></a> 
         <a class="how" href="/about">使い方</a>
       </div>
 </template>
