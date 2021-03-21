@@ -14,7 +14,7 @@
           <p class="icon" @click="del(index)" alt  v-if = "auth">[×]</p>
         </div>
         <p class="text">{{ value.item.share }}</p>
-        <a :href = "value.item.url" class="text url">参考：{{value.item.url}}</a>
+        <a :href = "value.item.url" class="text url" target="_blank" rel="noopener">参考：{{value.item.url}}</a>
         
       </div>
      <!-- <div class="ad" v-if="index%5==0">
