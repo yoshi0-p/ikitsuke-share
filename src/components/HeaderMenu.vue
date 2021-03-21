@@ -89,12 +89,10 @@ export default {
       } else {
         axios
           .post("https://desolate-chamber-25914.herokuapp.com/api/shares", {
-            user_id: this.$store.state.user.id,
             share: this.share,
             shop:this.shop,
             pref_id:this.pref_id,
             url:this.url
-
           })
           .then((response) => {
             console.log(response); 
