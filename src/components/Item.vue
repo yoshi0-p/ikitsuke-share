@@ -132,5 +132,7 @@ export default {
 }
 .line{
    border-bottom: 1px solid rgb(0, 0, 0);
+   padding-top:5px;
+   padding-bottom:5px;
 }
 </style>
