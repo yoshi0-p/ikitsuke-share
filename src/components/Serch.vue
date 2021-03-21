@@ -61,7 +61,7 @@
 export default {
   data() {
     return {
-      pref_id:"",
+     
     };
   },
   methods: {
