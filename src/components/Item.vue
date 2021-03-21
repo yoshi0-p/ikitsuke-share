@@ -119,4 +119,13 @@ export default {
 .url{
    word-break : break-all;
 }
+.title{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.pref{
+  background-color:black;
+  color:white;
+}
 </style>
