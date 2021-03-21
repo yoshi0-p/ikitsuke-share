@@ -133,8 +133,7 @@ export default {
   color:white;
 }
 .line{
-   border-bottom: 1px solid rgb(0, 0, 0);
-   padding-top:5px;
-   padding-bottom:5px;
+   border-top: 1px solid rgb(0, 0, 0);
+   margin-bottom:5px;
 }
 </style>
