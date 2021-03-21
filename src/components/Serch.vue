@@ -87,5 +87,6 @@ export default {
   margin-top:10px;
   margin-left:10%;
   margin-right:10%;
+  background-color: rgb(112, 171, 219); 
 }
 </style>
