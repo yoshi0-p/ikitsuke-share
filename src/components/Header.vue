@@ -1,6 +1,6 @@
 <template>
       <div class="logo">
-        <a href="/"> <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2></a> 
+        <a class = "none" href="/"> <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2></a> 
         <a class="how" href="/about">使い方</a>
       </div>
 </template>
@@ -21,7 +21,9 @@
   padding:10px;
   margin-right:50px;
   text-decoration:none;
-
+.none{
+  text-decoration: none;
+}
 }
 h2{
   color:white;
