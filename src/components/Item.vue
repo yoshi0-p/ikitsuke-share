@@ -13,6 +13,7 @@
         <p class="text pref"> {{ value.item.pref_id }} </p>
           <p class="icon" @click="del(index)" alt  v-if = "auth">[×]</p>
         </div>
+        <div class="line"></div>
         <p class="text">{{ value.item.share }}</p>
         <a :href = "value.item.url" class="text url" target="_blank" rel="noopener">参考：{{value.item.url}}</a>
         
@@ -127,5 +128,8 @@ export default {
 .pref{
   background-color:black;
   color:white;
+}
+.line{
+   border-bottom: 1px solid rgb(0, 0, 0);
 }
 </style>
