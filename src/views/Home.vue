@@ -54,7 +54,7 @@ export default {
   background-color:white;
   color:black;
   padding:3px;
-  padding-right:10px;
+  margin-right:20px;
   text-decoration:none;
 
 }
