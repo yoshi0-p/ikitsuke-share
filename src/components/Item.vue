@@ -117,6 +117,6 @@ export default {
   justify-content: center;
 }
 .url{
-  overflow:visible;
+   word-break : break-all;
 }
 </style>
