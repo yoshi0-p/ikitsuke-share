@@ -46,10 +46,11 @@ export default {
   color: white;
   background-color: rgb(255, 201, 100);
   height:50px;
+  display: flex;
 }
 .how{
-  height:50px;
   margin-right:0px;
+  
 }
 h2{
   color:white;
