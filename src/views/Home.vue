@@ -55,6 +55,7 @@ export default {
   color:black;
   padding:3px;
   padding-right:10px;
+  text-decoration:none;
 
 }
 h2{
