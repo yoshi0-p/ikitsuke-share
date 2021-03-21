@@ -15,7 +15,6 @@
         </div>
         <p class="text">{{ value.item.share }}</p>
         <p class="text">参考：{{value.item.url}}</p>
-        <p class="name">Recommeded by:{{ value.name }}</p>
         
       </div>
      <!-- <div class="ad" v-if="index%5==0">
