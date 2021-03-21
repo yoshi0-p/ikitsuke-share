@@ -119,7 +119,9 @@ export default {
 }
 .url{
    word-break : break-all;
+   text-decoration: none;
    background-color:#fdb720;
+   
 }
 .title{
   display:flex;
