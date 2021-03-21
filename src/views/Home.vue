@@ -50,6 +50,8 @@ export default {
   justify-content: space-between;
 }
 .how{
+  line-height:30px;
+  margin-top:10px;
   background-color:white;
   color:black;
   padding:10px;
