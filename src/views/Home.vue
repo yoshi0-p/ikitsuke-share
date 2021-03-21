@@ -1,9 +1,6 @@
 <template>
-    <div>
-      <div class="logo">
-        <h2 ><span class="red">イ</span>キツケ<span class="blue">S</span>HARE</h2>
-        <a class="how" href="">使い方</a>
-      </div>
+<div>  
+  <Header />
       <div class="image">
         <div class="cover">
          <p class="catch">誰かのイキツケはきっといい店だ。</p>
@@ -13,7 +10,7 @@
         <div class="post field">
         <p class="action">イキツケを紹介する</p>
         <HeaderMenu />
-      </div>
+       </div>
       <div class="serch field">
         <p class="action">街のイキツケを見る</p>
         <Serch ></Serch>
@@ -24,6 +21,7 @@
 </template>
 
 <script>
+import Header from "../components/Header";
 import HeaderMenu from "../components/HeaderMenu";
 import Item from "../components/Item";
 import Serch from "../components/Serch";
@@ -34,36 +32,13 @@ export default {
   components: {
     HeaderMenu,
     Item,
-    Serch
+    Serch,
+    Header
   }
 };
 
 </script>
 <style scoped>
-
-.logo{
-  padding-left:20px;
-  color: white;
-  background-color: rgb(255, 201, 100);
-  height:50px;
-  display: flex;
-  justify-content: space-between;
-}
-.how{
-  margin-top:10px;
-  margin-bottom:10px;
-  background-color:white;
-  color:black;
-  padding:10px;
-  margin-right:50px;
-  text-decoration:none;
-
-}
-h2{
-  color:white;
-  line-height: 50px;
-  text-shadow:1px 1px 0 rgb(0, 0, 0),-1px 1px 0 rgb(0, 0, 0),1px -1px 0 rgb(0, 0, 0),-1px -1px 0 rgb(0, 0, 0);
-}
 .image{
   background: url(../assets/sara.jpg) no-repeat;
   background-size: cover;
@@ -98,12 +73,7 @@ h2{
   color:white;
   font-size: 24px;
 }
-.red{
-  color:rgb(224, 141, 141);
-}
-.blue{
-  color:rgb(141,187,224);
-}
+
 
 @media screen and (max-width: 720px) {
   .parent {
