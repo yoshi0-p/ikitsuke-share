@@ -83,7 +83,7 @@ export default {
   resize:none;
 }
 #btn{
-  width:80%;
+  width:50%;
   margin-top:10px;
   margin-left:10%;
   margin-right:10%;
