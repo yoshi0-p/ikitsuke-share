@@ -14,7 +14,7 @@
           <p class="icon" @click="del(index)" alt  v-if = "auth">[×]</p>
         </div>
         <p class="text">{{ value.item.share }}</p>
-        <p class="text">参考：{{value.item.url}}</p>
+        <p class="text url">参考：{{value.item.url}}</p>
         
       </div>
      <!-- <div class="ad" v-if="index%5==0">
@@ -115,5 +115,8 @@ export default {
 .cover{
   display: flex;
   justify-content: center;
+}
+.url{
+  overflow:scroll;
 }
 </style>

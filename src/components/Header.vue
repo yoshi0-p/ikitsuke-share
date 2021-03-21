@@ -21,10 +21,11 @@
   padding:10px;
   margin-right:50px;
   text-decoration:none;
+}
 .none{
   text-decoration: none;
 }
-}
+
 h2{
   color:white;
   line-height: 50px;
