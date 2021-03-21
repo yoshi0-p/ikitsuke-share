@@ -85,8 +85,8 @@ export default {
 #btn{
   width:50%;
   margin-top:10px;
-  margin-left:10%;
-  margin-right:10%;
+  margin-left:25%;
+  margin-right:25%;
   background-color: rgb(112, 171, 219); 
   border-radius: 20px;
 }
