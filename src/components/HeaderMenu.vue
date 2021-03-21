@@ -126,5 +126,6 @@ export default {
   margin-left:10%;
   margin-right:10%;
   background-color: rgb(219, 114, 114);
+  border-radius: 5px;
 }
 </style>
