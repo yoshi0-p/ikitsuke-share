@@ -52,8 +52,8 @@ export default {
 .how{
   background-color:white;
   color:black;
-  padding:3px;
-  margin-right:20px;
+  padding:10px;
+  margin-right:50px;
   text-decoration:none;
 
 }
