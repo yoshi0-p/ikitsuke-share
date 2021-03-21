@@ -51,7 +51,11 @@ export default {
 }
 .how{
   line-height: 50px;
-  color:white;
+  background-color:white;
+  color:black;
+  padding:3px;
+  padding-right:10px;
+
 }
 h2{
   color:white;
