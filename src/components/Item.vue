@@ -45,61 +45,7 @@ export default {
            this.auth = true;
        }
   },
-    send(index) {
-      axios
-        .post("https://desolate-chamber-25914.herokuapp.com/api/comment", {
-          share_id: this.shares[index].item.id,
-          user_id: this.$store.state.user.id,
-          content: this.content,
-        })
-        .then((response) => {
-          console.log(response);
-          this.content = "";
-          this.$router.go({
-            path: this.$router.currentRoute.path,
-            force: true,
-          });
-        });
-    }, 
-  
-    fav(index) {
-      const result = this.shares[index].like.some((value) => {
-        return value.user_id == this.$store.state.user.id;
-      });
-      if (result) {
-        this.shares[index].like.forEach((element) => {
-          if (element.user_id == this.$store.state.user.id) {
-            axios({
-              method: "delete",
-              url: "https://desolate-chamber-25914.herokuapp.com/api/like",
-              data: {
-                share_id: this.shares[index].item.id,
-                user_id: this.$store.state.user.id,
-              },
-            }).then((response) => {
-              console.log(response);
-              this.$router.go({
-                path: this.$router.currentRoute.path,
-                force: true,
-              });
-            });
-          }
-        });
-      } else {
-        axios
-          .post("https://desolate-chamber-25914.herokuapp.com/api/like", {
-            share_id: this.shares[index].item.id,
-            user_id: this.$store.state.user.id,
-          })
-          .then((response) => {
-            console.log(response);
-            this.$router.go({
-              path: this.$router.currentRoute.path,
-              force: true,
-            });
-          });
-      }
-    },
+    
     del(index) {
       axios
         .delete(
