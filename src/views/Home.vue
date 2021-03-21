@@ -58,8 +58,8 @@ export default {
   /*flex-wrap: wrap;*/
 }
 .field{
-  margin:5vw;
-  width:40vw;
+  margin:1vw;
+  width:48vw;
   padding:20px;
 }
 .post{
