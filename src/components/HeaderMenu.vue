@@ -71,7 +71,7 @@ export default {
       share: "",
       shop:"",
       pref_id:"",
-      url:"",
+      url:"-",
     };
   },
   methods: {
