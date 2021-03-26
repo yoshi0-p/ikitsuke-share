@@ -47,8 +47,8 @@ export default {
 
 .catch{
   text-align: center;
-  padding-top:150px;
-  padding-bottom:150px;
+  padding-top:100px;
+  padding-bottom:100px;
   color:black;
 
 }
