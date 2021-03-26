@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="pre" v-if = "$store.state.wanted_pref_id && $store.state.wanted_type" >
-      <p>{{$store.state.wanted_pref_id}}の「{{$store.state.wanted_type}}」イキツケ一覧
+      <p class="menu">{{$store.state.wanted_pref_id}}の「{{$store.state.wanted_type}}」イキツケ一覧
       </p>
    </div>
  <div class="cover">
@@ -137,4 +137,5 @@ export default {
    border-top: 1px solid rgb(0, 0, 0);
    margin-bottom:5px;
 }
+
 </style>
