@@ -81,7 +81,7 @@ export default {
    flex-wrap: wrap;
 }
 .field{
-  margin:2.5vw;
+  margin-bottom:2.5vw;
   width:100vw;
   padding:20px;
 }
