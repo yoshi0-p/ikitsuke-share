@@ -2,7 +2,7 @@
 <div>
  <p class="form_title"><span id="char">所在地</span></p>
 <select class="form" name="pref_name" v-model="wanted_pref_id">
-<option value="都道府県を指定" selected>都道府県を指定</option>
+<option value="" selected>都道府県を指定</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
 <option value="岩手県">岩手県</option>
@@ -53,7 +53,7 @@
 </select>
 <p class="form_title"><span id="char">ジャンル</span></p>
 <select class="form" name="type" v-model="wanted_type">
-<option value="ジャンルを選択する" selected>ジャンルを選択する</option>
+<option value="" selected>ジャンルを選択する</option>
 <option value="飲食">飲食</option>
 <option value="美容">美容</option>
 <option value="健康">健康</option>

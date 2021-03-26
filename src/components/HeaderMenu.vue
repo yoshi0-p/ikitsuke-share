@@ -55,7 +55,7 @@
 </select>
 <p class="form_title"><span id="char">ジャンル</span></p>
 <select class="form" name="type" v-model="type">
-<option value="ジャンルを選択する" selected>ジャンルを選択する</option>
+<option value="" selected>ジャンルを選択する</option>
 <option value="飲食">飲食</option>
 <option value="美容">美容</option>
 <option value="健康">健康</option>
