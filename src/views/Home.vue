@@ -41,7 +41,7 @@ export default {
 <style scoped>
 .image{
   background: url(../assets/sara.png) no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-position: center;
   height:100px;
 }
