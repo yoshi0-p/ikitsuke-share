@@ -57,6 +57,16 @@
     <textarea class="form" v-model="share"></textarea>
     <p class="form_title"><span id="char">参考</span></p>
     <input class ="form" type="text" v-model="url">
+<select class="form" name="type" v-model="type">
+<option value="ジャンルを選択する" selected>ジャンルを選択する</option>
+<option value="飲食">飲食</option>
+<option value="美容">美容</option>
+<option value="健康">健康</option>
+<option value="教育">教育</option>
+<option value="ファッション">ファッション</option>
+<option value="ペット">ペット</option>
+<option value="その他">その他</option>
+</select>
     <div @click="send">
       <button id="btn">お店をシェア</button>
     </div>
@@ -71,6 +81,7 @@ export default {
       share: "",
       shop:"",
       pref_id:"",
+      type:"",
       url:"特になし",
     };
   },

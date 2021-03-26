@@ -2,7 +2,7 @@
 <div>
  <p class="form_title"><span id="char">所在地</span></p>
 <select class="form" name="pref_name" v-model="wanted_pref_id">
-<option value="" selected>都道府県を指定</option>
+<option value="都道府県を指定" selected>都道府県を指定</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
 <option value="岩手県">岩手県</option>
@@ -51,6 +51,16 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
+<select class="form" name="type" v-model="wanted_type">
+<option value="ジャンルを選択する" selected>ジャンルを選択する</option>
+<option value="飲食">飲食</option>
+<option value="美容">美容</option>
+<option value="健康">健康</option>
+<option value="教育">教育</option>
+<option value="ファッション">ファッション</option>
+<option value="ペット">ペット</option>
+<option value="その他">その他</option>
+</select>
 <button @click="serch" id="btn">お店を表示</button>
 </div>
   
@@ -67,10 +77,11 @@ export default {
   methods: {
     serch() {
       this.$store.dispatch('changeWantedPre', {
-        wanted_pref_id: this.wanted_pref_id
+        wanted_pref_id: this.wanted_pref_id,
       });
-      console.log(this.wanted_pref_id);
-      console.log(this.$store.state.wanted_pref_id);
+      this.$store.dispatch('changeWantedType',{
+        wanted_type: this.wanted_type,
+      });
     }
   }
 }

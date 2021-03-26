@@ -11,7 +11,8 @@ export default new Vuex.Store({
   state: {
     auth: "",
     user: "",
-    wanted_pref_id:"",
+    wanted_pref_id: "",
+    wanted_type: "",
   },
   mutations: {
     auth(state, payload) {
@@ -28,6 +29,9 @@ export default new Vuex.Store({
     },
     changeWantedPre(state, payload) {
       state.wanted_pref_id = payload;
+    },
+    changeWantedType(state, payload) {
+      state.wanted_type = payload;
     }
   },
   actions: {
@@ -70,6 +74,9 @@ export default new Vuex.Store({
     },*/
     changeWantedPre({commit},{wanted_pref_id}) {
       commit("changeWantedPre",wanted_pref_id);
+    },
+    changeWantedType({commit},{wanted_type}) {
+      commit("changeWantedType",wanted_type);
     }
   },
 });
