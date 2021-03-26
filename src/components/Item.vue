@@ -7,7 +7,7 @@
  <div class="cover">
    <p v-if= "shares.length == 0">読み込み中です</p>
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id && value.item.type == $store.state.wanted_type">
+      <div class="message" v-if= "(value.item.pref_id == $store.state.wanted_pref_id) && (value.item.type == $store.state.wanted_type)">
         <div class="title">
         <p class="text">{{ value.item.shop }}</p>
         <p class="text pref"> {{ value.item.pref_id }} </p>

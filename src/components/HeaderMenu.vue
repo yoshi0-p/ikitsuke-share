@@ -105,7 +105,8 @@ export default {
             share: this.share,
             shop:this.shop,
             pref_id:this.pref_id,
-            url:this.url
+            url:this.url,
+            type:this.type
           })
           .then((response) => {
             console.log(response); 
