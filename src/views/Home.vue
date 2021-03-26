@@ -48,10 +48,8 @@ export default {
 .catch{
   width: 100%;
   text-align: center;
-  position: absolute;
-  margin: auto;
-    top: 0;
-    bottom: 0;
+  height:100px;
+  line-height:100px;
   color:black;
 }
 .parent {
