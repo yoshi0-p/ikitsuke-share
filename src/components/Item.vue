@@ -6,7 +6,6 @@
    </div>
  <div class="cover">
    <p v-if= "shares.length == 0">読み込み中です</p>
-   <p v-if= "shares.length < 1 ">このエリアのイキツケはまだ登録されていません！ぜひあなたのイキツケを教えてください！</p>
     <div v-for="(value,index) in shares" :key="index">
       <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id">
         <div class="title">
