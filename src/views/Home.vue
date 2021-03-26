@@ -47,10 +47,9 @@ export default {
 
 .catch{
   text-align: center;
-  padding-top:100px;
-  padding-bottom:100px;
+  height: 100%;
+  line-height: 100px;
   color:black;
-
 }
 .parent {
   display: flex;
