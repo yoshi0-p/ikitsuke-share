@@ -1,7 +1,7 @@
 <template>
   <div class="about">
    <Header />
-   <img src="../assets/sara.png" alt="">
+   <img src="../assets/howto.jpg" alt="">
   </div>
 </template>
 <script>
