@@ -51,6 +51,7 @@
 <option value="鹿児島県">鹿児島県</option>
 <option value="沖縄県">沖縄県</option>
 </select>
+<p class="form_title"><span id="char">ジャンル</span></p>
 <select class="form" name="type" v-model="wanted_type">
 <option value="ジャンルを選択する" selected>ジャンルを選択する</option>
 <option value="飲食">飲食</option>
