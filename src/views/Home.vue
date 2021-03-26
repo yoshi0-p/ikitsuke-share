@@ -40,15 +40,18 @@ export default {
 </script>
 <style scoped>
 .image{
-  background: url(../assets/sara.jpg) no-repeat;
-  background-size: cover;
+  background: url(../assets/sara.png) no-repeat;
+  background-size: auto;
   background-position: center;
 }
 
 .catch{
+  width: 100%;
   text-align: center;
-  height: 100%;
-  line-height: 100px;
+  position: absolute;
+  margin: auto;
+    top: 0;
+    bottom: 0;
   color:black;
 }
 .parent {
