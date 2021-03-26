@@ -71,10 +71,10 @@
 
 export default {
   data() {
-    /* return {
+     return {
       wanted_pref_id:"",
       wanted_type:"",
-    }; */
+    }; 
   },
   methods: {
     serch() {
