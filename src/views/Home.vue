@@ -82,7 +82,7 @@ export default {
 }
 .field{
   margin:2.5vw;
-  width:95vw;
+  width:100vw;
   padding:20px;
 }
 }
