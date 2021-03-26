@@ -43,6 +43,7 @@ export default {
   background: url(../assets/sara.png) no-repeat;
   background-size: auto;
   background-position: center;
+  height:100px;
 }
 
 .catch{

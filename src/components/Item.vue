@@ -5,7 +5,7 @@
       </p>
    </div>
  <div class="cover">
-   
+   <p v-if= "share.length == 0">このエリアのイキツケはまだシェアされていません！あなたのイキツケをぜひ教えてください！</p>
     <div v-for="(value,index) in shares" :key="index">
       <div class="message" v-if= "value.item.pref_id == $store.state.wanted_pref_id">
         <div class="title">
