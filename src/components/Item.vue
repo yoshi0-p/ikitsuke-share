@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="pre" v-if= "$store.state.wanted_pref_id && $store.state.wanted_wanted_type">
+  <div class="pre" >
       <p>{{$store.state.wanted_pref_id}}の「{{$store.state.wanted_wanted_type}}」イキツケ一覧
       </p>
    </div>
