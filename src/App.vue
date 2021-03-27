@@ -1,5 +1,6 @@
 <template>
  <div id="app">
+     <title>イキツケSHARE</title>
    <router-view />
  </div>
 </template>
