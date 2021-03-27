@@ -115,35 +115,4 @@ h1{
 }
 </style>
 <script>
-
-export default {
-    methods : {
-  	createPageTitle : function(to){
-		 // タイトルを設定
-		if(to.meta.title){
-			var setTitle = to.meta.title;
-			document.title = setTitle;
-		} else {
-			document.title = 'ikituke-share'
-		}
-
-		// メタタグdescription設定
-		if(to.meta.desc){
-			var setDesc = to.meta.desc;
-			document.querySelector("meta[name='description']").setAttribute('content', setDesc)
-		} else {
-			document.querySelector("meta[name='description']").setAttribute('content','-')
-		}
-  	} 
-  },
-  mounted : function(){
-      var to = this.$route;
-      this.createPageTitle(to);
-  },
-  watch: { 
-      '$route' (to, from) {
-          this.createPageTitle(to);
-      }
-  }
-}
 </script>
