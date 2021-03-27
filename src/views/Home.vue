@@ -1,6 +1,5 @@
 <template>
 <div> 
-  <title>イキツケSHARE</title> 
   <Header />
       <div class="image">
         <div class="cover">
