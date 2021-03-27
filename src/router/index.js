@@ -17,7 +17,7 @@ const routes = [
     path: "/about",
     name: "about",
     component: About,
-    meta: { title: 'イキツケSHARE　使い方', }
+    meta: { title: 'イキツケSHARE　使い方',desc: '「お店を紹介したい人」と「新しくお店を開拓したい人」をつなげるwebサービスです。'}
   },
  {
     path: "/signup",
