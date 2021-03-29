@@ -46,21 +46,6 @@ export default {
            this.auth = true;
        }
   },
-    
-    del(index) {
-      axios
-        .delete(
-          "https://desolate-chamber-25914.herokuapp.com/api/shares/" +
-            this.shares[index].item.id
-        )
-        .then((response) => {
-          console.log(response); 
-          this.$router.go({
-            path: this.$router.currentRoute.path,
-            force: true,
-          });
-        });
-    },
     async getShares() {
       const shares = await axios.get(
         "https://desolate-chamber-25914.herokuapp.com/api/shares"
