@@ -11,7 +11,6 @@
         <div class="title">
         <p class="text">{{ value.shop }}</p>
         <p class="text pref"> {{ value.pref_id }} </p>
-          <p class="icon" @click="del(index)" alt  v-if = "auth">[×]</p>
         </div>
         <div class="line"></div>
         <p class="text">{{ value.share }}</p>
