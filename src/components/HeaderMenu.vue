@@ -63,7 +63,8 @@
 <option value="教育">教育</option>
 <option value="ファッション">ファッション</option>
 <option value="ペット">ペット</option>
-<option value="その他">その他</option>
+<option value="その他">その他サービス</option>
+<option value="その他">その他小売</option>
 </select>
     <p class="form_title"><span id="char">クチコミ</span></p>
     <textarea class="form" v-model="share"></textarea>

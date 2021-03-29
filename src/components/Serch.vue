@@ -61,7 +61,8 @@
 <option value="教育">教育</option>
 <option value="ファッション">ファッション</option>
 <option value="ペット">ペット</option>
-<option value="その他">その他</option>
+<option value="その他">その他サービス</option>
+<option value="その他">その他小売</option>
 </select>
 <button @click="serch" id="btn">お店を絞り込み</button>
 <button @click="serch2" id="btn">全てのお店を表示</button>
