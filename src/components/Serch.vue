@@ -62,7 +62,8 @@
 <option value="ペット">ペット</option>
 <option value="その他">その他</option>
 </select>
-<button @click="serch" id="btn">お店を表示</button>
+<button @click="serch" id="btn">お店を絞り込み</button>
+<button @click="serch2" id="btn">全てのお店を表示</button>
 </div>
   
 </template>
@@ -83,6 +84,14 @@ export default {
       });
       this.$store.dispatch('changeWantedType',{
         wanted_type: this.wanted_type,
+      });
+    },
+    serch2() {
+      this.$store.dispatch('changeWantedPre', {
+        wanted_pref_id:"",
+      });
+      this.$store.dispatch('changeWantedType',{
+        wanted_type:"",
       });
     }
   }
