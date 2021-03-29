@@ -7,15 +7,15 @@
  <div class="cover">
    <p v-if= "shares.length == 0">読み込み中です</p>
     <div v-for="(value,index) in shares" :key="index">
-      <div class="message" v-if= "(value.item.pref_id == $store.state.wanted_pref_id) && (value.item.type == $store.state.wanted_type)">
+      <div class="message" v-if= "(value.pref_id == $store.state.wanted_pref_id) && (value.type == $store.state.wanted_type)">
         <div class="title">
-        <p class="text">{{ value.item.shop }}</p>
-        <p class="text pref"> {{ value.item.pref_id }} </p>
+        <p class="text">{{ value.shop }}</p>
+        <p class="text pref"> {{ value.pref_id }} </p>
           <p class="icon" @click="del(index)" alt  v-if = "auth">[×]</p>
         </div>
         <div class="line"></div>
-        <p class="text">{{ value.item.share }}</p>
-        <a :href = "value.item.url" class="text url" target="_blank" rel="noopener">参考：{{value.item.url}}</a>
+        <p class="text">{{ value.share }}</p>
+        <a :href = "value.url" class="text url" target="_blank" rel="noopener">参考：{{value.url}}</a>
         
       </div>
      <!-- <div class="ad" v-if="index%5==0">
@@ -62,10 +62,10 @@ export default {
         });
     },
     async getShares() {
-      let data = [];
       const shares = await axios.get(
         "https://desolate-chamber-25914.herokuapp.com/api/shares"
       );
+      /*
       console.log(shares); 
       for (let i = 0; i < shares.data.data.length; i++) {
         await axios
@@ -78,8 +78,10 @@ export default {
               data.unshift(response.data);
 
           });
+      }*/
+      for (let i = 0; i < shares.data.data.length; i++) {
+        this.shares.unshift(shares.data.data[i]);
       }
-      this.shares = data;
     console.log(this.shares); 
     },
 
