@@ -63,8 +63,8 @@ export default {
 
           });
       }*/
-      for (let i = 0; i < shares.length; i++) {
-        this.shares.unshift(shares[i]);
+      for (let i = 0; i < shares.data.data.length; i++) {
+        this.shares.unshift(shares.data.data[i]);
       }
     console.log(this.shares); 
     },
