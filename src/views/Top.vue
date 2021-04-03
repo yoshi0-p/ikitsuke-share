@@ -1,22 +1,20 @@
 <template>
 <div> 
-      <div class="image">
-        <div class="cover">
-         <p class="catch">現地の食レポ</p>
-        </div>
-      </div>
+      <Header></Header>
       <Share></Share>
       </div>
 </template>
 
 <script>
 import Share from "../components/Share";
+import Header from "../components/Header"
 export default {
   method:{
   
   },
   components: {
     Share,
+    Header
   }
 };
 
@@ -32,8 +30,6 @@ export default {
 .catch{
   width: 100%;
   text-align: center;
-  height:100px;
-  line-height:100px;
   color:black;
 }
 .parent {
