@@ -89,7 +89,10 @@ padding:10px;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 720px) {
-  .side{
+  .photo{
+  width:100%;
+}
+.side{
   display:block;
   }
 }
