@@ -36,8 +36,9 @@ export default {
        }
   },
     async getShares() {
+      let test =  "https://sleepy-reaches-02561.herokuapp.com/api/twitter";
       const shares = await axios.get(
-        "https://sleepy-reaches-02561.herokuapp.com/api/twitter"
+        test
       );
       for (let i = 0; i < shares.data.data.length; i++) {
         this.shares.push(shares.data.data[i]);
