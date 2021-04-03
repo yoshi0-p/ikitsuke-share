@@ -5,23 +5,18 @@
          <p class="catch">現地の食レポ</p>
         </div>
       </div>
-      </div>
-       <Share ></Share>
+      <Share></Share>
       </div>
 </template>
 
 <script>
-import HeaderMenu from "../components/HeaderMenu";
 import Share from "../components/Share";
-import Serch from "../components/Serch";
 export default {
   method:{
   
   },
   components: {
-    HeaderMenu,
     Share,
-    Serch
   }
 };
 
