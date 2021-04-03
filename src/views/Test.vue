@@ -1,6 +1,16 @@
 <template>
-<div>
-
+<div>　
+    <div v-for="(value,index) in shares" :key="index">
+      <div class="message" >
+        <div class="title">
+        <p class="text shop">{{ value.user.name }}</p>
+        <p class="text pref"> {{ value.text }} </p>
+        </div>        
+      </div>
+     <!-- <div class="ad" v-if="index%5==0">
+        <p>5回に一回</p>
+        </div> -->
+    </div>
 </div>
   
 </template>
