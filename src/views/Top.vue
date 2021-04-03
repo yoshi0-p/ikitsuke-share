@@ -1,20 +1,20 @@
 <template>
 <div> 
-      <Header></Header>
+      <Header2></Header2>
       <Share></Share>
       </div>
 </template>
 
 <script>
 import Share from "../components/Share";
-import Header from "../components/Header"
+import Header2 from "../components/Header2"
 export default {
   method:{
   
   },
   components: {
     Share,
-    Header
+    Header2
   }
 };
 
