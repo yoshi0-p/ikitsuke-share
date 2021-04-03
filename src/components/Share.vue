@@ -7,9 +7,8 @@
         <img v-bind:src="value.user.profile_image_url" alt="">
         <p class="text shop">{{ value.user.name }}</p>
         <p class="text pref"> {{ value.text }} </p>
-        <div v-for="(array,index) in value.extended_entities.media" :key="index">
-          <img v-bind:src="array.url" alt="">
-        </div>
+        <!--  <img v-bind:src="value.extended_entities.media[0].url" alt=""> -->
+         <p class="text pref"> {{ value.extended_entities }} </p>
         </div>        
       </div>
      <!-- <div class="ad" v-if="index%5==0">
