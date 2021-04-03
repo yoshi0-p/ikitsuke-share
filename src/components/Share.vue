@@ -1,5 +1,6 @@
 <template>
 <div>
+  
    <div v-for="(value,index) in shares" :key="index">
       <div class="message" >
         <div class="title">

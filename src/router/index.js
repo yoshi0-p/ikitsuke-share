@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Login from "../views/Login.vue";
-import Test from "../views/Test.vue";
+import Top from "../views/Top.vue";
 
 Vue.use(VueRouter);
 
@@ -19,9 +19,9 @@ const routes = [
     component: About,
   },
   {
-    path: "/test",
-    name: "test",
-    component: Test,
+    path: "/top",
+    name: "top",
+    component: Top,
   },
  
   {
