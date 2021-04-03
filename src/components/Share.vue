@@ -95,7 +95,7 @@ padding:10px;
 .side{
   display:block;
   }
-  .card{
+  .cards{
     width:100%;
   }
   .text{
