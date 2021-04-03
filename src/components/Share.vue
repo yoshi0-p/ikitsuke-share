@@ -98,6 +98,12 @@ padding:10px;
   .card{
     width:100%;
   }
+  .text{
+    padding:1px;
+  }
+  .user{
+    padding:1px;
+  }
 }
 
 </style>
