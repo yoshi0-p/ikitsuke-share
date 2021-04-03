@@ -20,7 +20,6 @@
 </template>
 
 <script>
-import Header from "../components/Header";
 import HeaderMenu from "../components/HeaderMenu";
 import Item from "../components/Item";
 import Serch from "../components/Serch";
