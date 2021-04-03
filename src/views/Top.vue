@@ -5,23 +5,14 @@
          <p class="catch">現地の食レポ</p>
         </div>
       </div>
-      <div class="parent">
-        <div class="post field">
-        <p class="action">イキツケを紹介する</p>
-        <HeaderMenu />
-       </div>
-      <div class="serch field">
-        <p class="action">街のイキツケを見る</p>
-        <Serch ></Serch>
       </div>
-      </div>
-       <Item ></Item>
+       <Share ></Share>
       </div>
 </template>
 
 <script>
 import HeaderMenu from "../components/HeaderMenu";
-import Item from "../components/Item";
+import Share from "../components/Share";
 import Serch from "../components/Serch";
 export default {
   method:{
@@ -29,7 +20,7 @@ export default {
   },
   components: {
     HeaderMenu,
-    Item,
+    Share,
     Serch
   }
 };
