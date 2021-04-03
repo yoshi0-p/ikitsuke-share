@@ -30,8 +30,7 @@ export default {
   components: {
     HeaderMenu,
     Item,
-    Serch,
-    Header
+    Serch
   }
 };
 
