@@ -9,7 +9,7 @@
     <div v-for="(value,index) in shares" :key="index">
       <div class="message" v-if= "((value.pref_id == $store.state.wanted_pref_id) && (value.type == $store.state.wanted_type)) || (($store.state.wanted_pref_id == '' ) && ($store.state.wanted_type ==''))">
         <div class="title">
-        <p class="text">{{ value.shop }}</p>
+        <p class="text shop">{{ value.shop }}</p>
         <p class="text pref"> {{ value.pref_id }} </p>
         </div>
         <div class="line"></div>
@@ -80,6 +80,9 @@ export default {
 </script>
 
 <style scoped>
+.shop{
+ width:250px; 
+}
 .pre{
   text-align: center;
   font-size:32px;

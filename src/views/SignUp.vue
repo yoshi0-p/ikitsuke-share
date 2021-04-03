@@ -48,6 +48,7 @@ export default {
           alert(error);
         });
     }
+    
   }
 };
 </script>
