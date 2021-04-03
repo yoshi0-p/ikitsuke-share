@@ -4,7 +4,7 @@
    <div v-for="(value,index) in shares" :key="index">
       <div class="message" >
         <div class="title">
-        <img src="{value.user.profile_image_url}" alt="">
+        <img v-bind:src="value.user.profile_image_url" alt="">
         <p class="text shop">{{ value.user.name }}</p>
         <p class="text pref"> {{ value.text }} </p>
         </div>        
