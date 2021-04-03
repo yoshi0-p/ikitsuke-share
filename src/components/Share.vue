@@ -95,6 +95,9 @@ padding:10px;
 .side{
   display:block;
   }
+  .card{
+    width:100%;
+  }
 }
 
 </style>
