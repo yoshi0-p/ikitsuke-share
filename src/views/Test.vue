@@ -27,8 +27,8 @@ export default {
       const shares = await axios.get(
         "https://sleepy-reaches-02561.herokuapp.com/api/twitter"
       );
-      for (let i = 0; i < shares.data.length; i++) {
-        this.shares.unshift(shares.data[i]);
+      for (let i = 0; i < shares.data.data.length; i++) {
+        this.shares.unshift(shares.data.data[i]);
       }
     console.log(this.shares); 
     },
