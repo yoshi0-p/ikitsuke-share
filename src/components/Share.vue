@@ -88,6 +88,10 @@ padding:10px;
   justify-content: center;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 720px) {
+  .side{
+  display:block;
+  }
+}
 
 </style>
