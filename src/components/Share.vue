@@ -4,6 +4,7 @@
    <div v-for="(value,index) in shares" :key="index">
       <div class="message" >
         <div class="title">
+        <img src="{value.user.profile_image_url}" alt="">
         <p class="text shop">{{ value.user.name }}</p>
         <p class="text pref"> {{ value.text }} </p>
         </div>        
@@ -39,7 +40,7 @@ export default {
         "https://sleepy-reaches-02561.herokuapp.com/api/twitter"
       );
       for (let i = 0; i < shares.data.data.length; i++) {
-        this.shares.unshift(shares.data.data[i]);
+        this.shares.push(shares.data.data[i]);
       }
     console.log(this.shares); 
     },
