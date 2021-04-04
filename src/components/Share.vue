@@ -33,10 +33,10 @@ export default {
     async getShares() {
       let url = "";
       switch(this.$store.state.area){
-        case "福岡":url = "https://sleepy-reaches-02561.herokuapp.com/api/fukuoka";
+        case "福岡":url = "https://murmuring-woodland-15417.herokuapp.com/api/fukuoka";
         console.log("succes!");
         break;
-        default:url = "https://sleepy-reaches-02561.herokuapp.com/api/twitter";
+        default:url = "https://murmuring-woodland-15417.herokuapp.com/api/twitter";
         console.log(`Sorry, we have no data yet.`);
       } 
       console.log(url);
