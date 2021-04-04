@@ -1,5 +1,6 @@
 <template>
 <div class="board">
+  <p class ="waiting" v-if= "shares==''">読み込み中です</p>
    <div class="cards" v-for="(value,index) in shares" :key="index">
       <div class = "side card" v-if= "value.extended_entities">
         <img class="photo" v-bind:src="value.extended_entities.media[0].media_url">
@@ -74,6 +75,9 @@ export default {
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.32)
   
 }
+.waiting{
+  margin:20px;
+}
 .user{
 padding:10px;
 }
@@ -83,6 +87,7 @@ padding:10px;
 }
 .photo{
   width:25vw;
+  object-fit: contain;
 }
 .board{
   display: flex;
