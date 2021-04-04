@@ -31,11 +31,11 @@ export default {
   methods: {
   
     async getShares() {
-      let url = "";
+      let url = "https://murmuring-woodland-15417.herokuapp.com/api/";
       switch(this.$store.state.area){
-        case "福岡":url = "https://murmuring-woodland-15417.herokuapp.com/api/fukuoka";
-        console.log("succes!");
-        break;
+        case "福岡":url = url +"fukuoka";break;
+        case "東京":url = url +"tokyo";break;
+        case "大阪":url = url +"osaka";break;
         default:url = "https://murmuring-woodland-15417.herokuapp.com/api/twitter";
         console.log(`Sorry, we have no data yet.`);
       } 
