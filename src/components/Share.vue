@@ -30,16 +30,18 @@ export default {
   
   methods: {
   
-  check(){
-  
-   if(this.$store.state.user.id == 4){
-           this.auth = true;
-       }
-  },
     async getShares() {
-      let test =  "https://sleepy-reaches-02561.herokuapp.com/api/twitter";
+      let url = "";
+      switch(this.$store.state.area){
+        case "福岡":url = "https://sleepy-reaches-02561.herokuapp.com/api/fukuoka";
+        console.log("succes!");
+        break;
+        default:url = "https://sleepy-reaches-02561.herokuapp.com/api/twitter";
+        console.log(`Sorry, we have no data yet.`);
+      } 
+      console.log(url);
       const shares = await axios.get(
-        test
+        url
       );
       for (let i = 0; i < shares.data.data.length; i++) {
         this.shares.push(shares.data.data[i]);
@@ -50,7 +52,6 @@ export default {
 
   },
   created() {
-    this.check(); 
     this.getShares();
     
   },

@@ -13,6 +13,7 @@ export default new Vuex.Store({
     user: "",
     wanted_pref_id: "",
     wanted_type: "",
+    area:"10",
   },
   mutations: {
     auth(state, payload) {
@@ -32,6 +33,9 @@ export default new Vuex.Store({
     },
     changeWantedType(state, payload) {
       state.wanted_type = payload;
+    },
+    changeArea(state, payload) {
+      state.area = payload;
     }
   },
   actions: {
@@ -77,6 +81,9 @@ export default new Vuex.Store({
     },
     changeWantedType({commit},{wanted_type}) {
       commit("changeWantedType",wanted_type);
+    },
+    changeArea({commit},{area}) {
+      commit("changeArea",area);
     }
   },
 });

@@ -1,20 +1,23 @@
 <template>
 <div> 
       <Header2></Header2>
+      <SearchP></SearchP>
       <Share></Share>
       </div>
 </template>
 
 <script>
 import Share from "../components/Share";
-import Header2 from "../components/Header2"
+import Header2 from "../components/Header2";
+import SearchP from "../components/SearchP";
 export default {
   method:{
   
   },
   components: {
     Share,
-    Header2
+    Header2,
+    SearchP
   }
 };
 

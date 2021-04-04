@@ -1,7 +1,7 @@
 <template>
       <div class="logo">
         <a class = "none" href="/"> <h2 ><span class="red">お</span>いしい<span class="blue">つ</span>ぶやき</h2></a> 
-        <a class="how" href="/about">福岡</a>
+        <a class="how" href="/about">{{$store.state.area}}</a>
       </div>
 </template>
 <style scoped>
