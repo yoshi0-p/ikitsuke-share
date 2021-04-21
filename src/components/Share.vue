@@ -3,12 +3,12 @@
   <p class ="waiting" v-if= "shares==''">読み込み中です</p>
    <div class="cards" v-for="(value,index) in shares" :key="index">
       <a v-bind:href= "value.user.url" class = "side card">
-       <img class="photo" v-bind:src= "value.extended_entities.media[0].media_url"
-        v-if= "value.extended_entities">
+       <!--<img class="photo" v-bind:src= "value.extended_entities.media[0].media_url"
+        v-if= "value.extended_entities">-->
         <div>
         <img class="user" v-bind:src="value.user.profile_image_url" alt="">
-        <p class="text">{{ value.user.name }}</p>
-        <p class="text"> {{ value.text }} </p>
+        <p class="text name">{{ value.user.name }}</p>
+        <p class="text"> {{ value.user.description }} </p>
         </div>
       </a>
      <!-- <div class="ad" v-if="index%5==0">
@@ -65,7 +65,8 @@ export default {
   justify-content: flex-start;
 }
 .cards{
-  width:60vw;
+  width:40vw;
+  margin:1vw;
 }
 .card{
     margin-top:1px;
@@ -74,7 +75,7 @@ export default {
     color: #f0e5abfd;
     background: #faf175;/*背景色*/
     border-top: solid 6px #ffbe5d;
-    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.32)
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.32);
   
 }
 .waiting{
@@ -95,6 +96,9 @@ padding:10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.name{
+  font-weight: bold;
 }
 @media screen and (max-width: 720px) {
   .photo{
