@@ -3,12 +3,13 @@
   <p class ="waiting" v-if= "shares==''">読み込み中です</p>
    <div class="cards" v-for="(value,index) in shares" :key="index">
       <a v-bind:href= "value.user.url" class = "side card">
-       <!--<img class="photo" v-bind:src= "value.extended_entities.media[0].media_url"
-        v-if= "value.extended_entities">-->
+       <img class="photo" v-bind:src= "value.extended_entities.media[0].media_url"
+        v-if= "value.extended_entities">
         <div>
         <img class="user" v-bind:src="value.user.profile_image_url" alt="">
         <p class="text name">{{ value.user.name }}</p>
-        <p class="text"> {{ value.user.description }} </p>
+        <p class="text des"> {{ value.user.description }} </p>
+        <p class="text"> {{ value.text }} </p>
         </div>
       </a>
      <!-- <div class="ad" v-if="index%5==0">
@@ -65,7 +66,7 @@ export default {
   justify-content: flex-start;
 }
 .cards{
-  width:40vw;
+  width:60vw;
   margin:1vw;
 }
 .card{
@@ -99,6 +100,9 @@ padding:10px;
 }
 .name{
   font-weight: bold;
+}
+.des{
+ font-size: small;
 }
 @media screen and (max-width: 720px) {
   .photo{
