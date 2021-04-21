@@ -2,7 +2,7 @@
 <div class="board">
   <p class ="waiting" v-if= "shares==''">読み込み中です</p>
    <div class="cards" v-for="(value,index) in shares" :key="index">
-      <div class = "side card">
+      <a href="value.entities.urls[0].url" class = "side card">
        <img class="photo" v-bind:src= "value.extended_entities.media[0].media_url"
         v-if= "value.extended_entities">
         <div>
@@ -10,7 +10,7 @@
         <p class="text">{{ value.user.name }}</p>
         <p class="text"> {{ value.text }} </p>
         </div>
-      </div>
+      </a>
      <!-- <div class="ad" v-if="index%5==0">
         <p>5回に一回</p>
         </div> -->
