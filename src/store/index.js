@@ -13,7 +13,7 @@ export default new Vuex.Store({
     user: "",
     wanted_pref_id: "",
     wanted_type: "",
-    area:"10",
+    area:"ー",
   },
   mutations: {
     auth(state, payload) {
