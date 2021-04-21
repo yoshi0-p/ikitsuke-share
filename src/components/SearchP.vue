@@ -2,15 +2,15 @@
 <div>
 <select class="form" name="pref_name" v-model="area">
 <option value="" selected>エリアを選択</option>
-<option value="札幌">札幌</option>
+<!--<option value="札幌">札幌</option> -->
 <option value="東京">東京</option>
-<option value="横浜">横浜</option>
+<!--<option value="横浜">横浜</option>
 <option value="名古屋">名古屋</option>
 <option value="仙台">仙台</option>
 <option value="奈良">奈良</option>
-<option value="神戸">神戸</option>
+<option value="神戸">神戸</option> -->
 <option value="大阪">大阪</option>
-<option value="広島">広島</option>
+<!--<option value="広島">広島</option> -->
 <option value="福岡">福岡</option>
 </select>
 <button @click="serch" id="btn">エリア選択</button>
